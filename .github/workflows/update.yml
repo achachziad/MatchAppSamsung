@@ -2,7 +2,9 @@ name: Mise à jour des matchs
 
 on:
   schedule:
-    - cron: "*/30 * * * *"   # scores et statuts ; le guide TV n'est téléchargé qu'une fois par jour (cache)
+    # Heures de match seulement. Cron en UTC : 9h–23h30 UTC = 11h–1h30 (été) / 10h–0h30 (hiver) à Paris.
+    # Le guide TV n'est téléchargé qu'une fois par jour (cache).
+    - cron: "*/30 9-23 * * *"
   push:
     branches: [main]
   workflow_dispatch:
@@ -24,7 +26,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 24
+      # Le code ne change pas entre deux exécutions planifiées : tests seulement au push / lancement manuel.
       - run: npm test
+        if: github.event_name != 'schedule'
 
       # Même règle que guideDay() dans pipeline/dates.js : la journée de guide commence à 04h00 (Paris).
       - name: Journée du guide TV
