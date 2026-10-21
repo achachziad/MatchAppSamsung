@@ -45,12 +45,24 @@ app/
       index.js        # choix de la source de données
       <source>.js     # un fichier par source, même interface
   icon.png            # 117×117
+pipeline/             # job GitHub Actions (Node), jamais embarqué dans le .wgt
+  build.js            # orchestration : API + guide TV → dist/matchs.json (seul fichier avec effets de bord)
+  footballData.js     # réponse football-data.org → modèle interne
+  xmltv.js            # lecture du guide XMLTV
+  channels.js         # association match ↔ programme TV (fenêtre horaire, noms, alias)
+  dates.js            # dates Europe/Paris
+.github/workflows/update.yml   # toutes les 30 min : tests, build, déploiement GitHub Pages
 tests/
   matches.test.js
+  pipeline/*.test.js
   sources/*.test.js   # tests sur des fixtures, jamais sur le réseau
-  fixtures/
-package.json          # vitest uniquement
+  fixtures/           # extraits réels de l'API et du guide du 21/10/2026
+package.json          # "type": "module", scripts "test" et "build", aucune dépendance
 ```
+
+- `npm run build` génère `dist/matchs.json` en local (lit la clé dans `.env`). Le guide TV est mis en cache dans `.cache/` pour la journée.
+- Publié sur `https://achachziad.github.io/MatchAppSamsung/matchs.json` (`{ generatedAt, matches }`).
+- Une équipe du guide non reconnue → ajouter un alias dans `ALIASES` (`pipeline/channels.js`), avec un test.
 
 ---
 
@@ -67,7 +79,7 @@ Chaque source doit renvoyer une liste d'objets de cette forme :
   away: "OM",
   kickoff: "2026-10-21T19:00:00Z", // ISO 8601, toujours en UTC
   channels: ["Canal+"],            // [] si inconnu
-  status: "scheduled",             // "scheduled" | "live" | "finished"
+  status: "scheduled",             // "scheduled" | "live" | "finished" | "postponed" (reporté, suspendu, annulé)
   score: null                      // { home: 2, away: 1 } si connu, sinon null
 }
 ```
@@ -155,7 +167,7 @@ Télé : lit uniquement matchs.json
 
 1. **Demander le contexte manquant avant de coder** : sports et compétitions voulus, source de données. Ne pas deviner.
 2. **TDD** pour toute la logique pure (`matches.js`, parsing des sources) : écrire le test d'abord, puis le code.
-   - Tests avec **vitest**, sur des **fixtures** dans `tests/fixtures/`. **Jamais d'appel réseau** dans les tests.
+   - Tests avec **`node:test`** + `node:assert/strict` (intégrés à Node, pas de dépendance), sur des **fixtures** dans `tests/fixtures/`. **Jamais d'appel réseau** dans les tests.
    - Cas à couvrir : fuseau horaire et changement d'heure, match à cheval sur minuit, chaîne absente, réponse vide, réponse malformée.
 3. **Ne jamais inventer** une API, un endpoint ou une fonction Tizen. En cas de doute, le dire et vérifier dans la doc Samsung.
 4. **Changements minimaux** : ne pas réécrire ce qui marche.
@@ -166,10 +178,9 @@ Télé : lit uniquement matchs.json
 ## Commandes
 
 ```bash
-npm install          # installe vitest
-npm test             # lance les tests
-npx vitest run tests/matches.test.js      # un seul fichier de test
-npx vitest run -t "minuit"                # tests dont le nom contient « minuit »
+npm test                                  # lance les tests (node --test, aucune dépendance)
+node --test tests/matches.test.js         # un seul fichier de test
+node --test --test-name-pattern="minuit"  # tests dont le nom contient « minuit »
 npx serve app        # aperçu dans le navigateur du PC (optionnel)
 ```
 

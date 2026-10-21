@@ -1,0 +1,9 @@
+{
+  "name": "matchs-du-jour",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "build": "node --env-file-if-exists=.env pipeline/build.js"
+  }
+}

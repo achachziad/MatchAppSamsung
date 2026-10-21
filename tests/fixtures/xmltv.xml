@@ -1,0 +1,2533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv>
+  <channel id="CanalPlus.fr">
+    <display-name>Canal+</display-name>
+  </channel>
+  <channel id="CanalPlusFoot.fr">
+    <display-name>Canal+ Foot</display-name>
+  </channel>
+  <channel id="CanalPlusLive1.fr">
+    <display-name>Canal+ Live 1</display-name>
+  </channel>
+  <channel id="CanalPlusLive2.fr">
+    <display-name>Canal+ Live 2</display-name>
+  </channel>
+  <channel id="CanalPlusLive3.fr">
+    <display-name>Canal+ Live 3</display-name>
+  </channel>
+  <channel id="CanalPlusLive4.fr">
+    <display-name>Canal+ Live 4</display-name>
+  </channel>
+  <channel id="CanalPlusLive5.fr">
+    <display-name>Canal+ Live 5</display-name>
+  </channel>
+  <channel id="CanalPlusLive6.fr">
+    <display-name>Canal+ Live 6</display-name>
+  </channel>
+  <channel id="CanalPlusLive7.fr">
+    <display-name>Canal+ Live 7</display-name>
+  </channel>
+  <channel id="CanalPlusPremierLeague.fr">
+    <display-name>Canal+ Premier League</display-name>
+  </channel>
+  <channel id="CanalPlusSport.fr">
+    <display-name>Canal+ Sport</display-name>
+  </channel>
+  <channel id="CanalPlusSport360.fr">
+    <display-name>Canal+ Sport 360</display-name>
+  </channel>
+  <channel id="DAZN.fr">
+    <display-name>DAZN 1</display-name>
+  </channel>
+  <channel id="LEquipe21.fr">
+    <display-name>La chaine l’Équipe</display-name>
+  </channel>
+  <channel id="Ligue1Plus.fr">
+    <display-name>Ligue 1+</display-name>
+  </channel>
+  <channel id="Ligue1Plus10.fr">
+    <display-name>Ligue 1+ 10</display-name>
+  </channel>
+  <channel id="Ligue1Plus2.fr">
+    <display-name>Ligue 1+ 2</display-name>
+  </channel>
+  <channel id="Ligue1Plus3.fr">
+    <display-name>Ligue 1+ 3</display-name>
+  </channel>
+  <channel id="Ligue1Plus4.fr">
+    <display-name>Ligue 1+ 4</display-name>
+  </channel>
+  <channel id="Ligue1Plus5.fr">
+    <display-name>Ligue 1+ 5</display-name>
+  </channel>
+  <channel id="Ligue1Plus6.fr">
+    <display-name>Ligue 1+ 6</display-name>
+  </channel>
+  <channel id="Ligue1Plus7.fr">
+    <display-name>Ligue 1+ 7</display-name>
+  </channel>
+  <channel id="Ligue1Plus8.fr">
+    <display-name>Ligue 1+ 8</display-name>
+  </channel>
+  <channel id="Ligue1Plus9.fr">
+    <display-name>Ligue 1+ 9</display-name>
+  </channel>
+  <channel id="TF1.fr">
+    <display-name>TF1</display-name>
+  </channel>
+  <channel id="beINSPORTS1.fr">
+    <display-name>beIN SPORTS 1</display-name>
+  </channel>
+  <channel id="beINSPORTS2.fr">
+    <display-name>beIN SPORTS 2</display-name>
+  </channel>
+  <channel id="beINSPORTSMAX10.fr">
+    <display-name>beIN SPORTS MAX 10</display-name>
+  </channel>
+  <channel id="beINSPORTSMAX5.fr">
+    <display-name>beIN SPORTS MAX 5</display-name>
+  </channel>
+  <channel id="beINSPORTSMAX8.fr">
+    <display-name>beIN SPORTS MAX 8</display-name>
+  </channel>
+  <programme start="20261021181300 +0200" stop="20261021182600 +0200" channel="CanalPlus.fr">
+    <title lang="fr">L'hebd'Hollywood</title>
+    <sub-title lang="fr">Emission du 10 oct. 2026</sub-title>
+    <category lang="fr">Cinema</category>
+    <category lang="fr">Mag Cinema</category>
+    <subtitles type="teletext"/>
+    </rating>
+  </programme>
+  <programme start="20261021182600 +0200" stop="20261021183000 +0200" channel="CanalPlus.fr">
+    <title lang="fr">La boîte à questions</title>
+    <sub-title lang="fr">Emission du 21 oct. 2026</sub-title>
+    <category lang="fr">Divertissement</category>
+    <category lang="fr">Divertissement</category>
+    <subtitles type="teletext"/>
+  </programme>
+  <programme start="20261021183000 +0200" stop="20261021184400 +0200" channel="CanalPlus.fr">
+    <title lang="fr">Têtàtête(s)</title>
+    <sub-title lang="fr">Ariane Ascaride et Marielou Aussilloux dans "Une femme aujourd'hui"</sub-title>
+    <category lang="fr">Actualites</category>
+    <category lang="fr">Interview</category>
+    <subtitles type="teletext"/>
+    </rating>
+  </programme>
+  <programme start="20261021184400 +0200" stop="20261021184900 +0200" channel="CanalPlus.fr">
+    <title lang="fr">Un Clique par jour</title>
+    <sub-title lang="fr">Mauvaise pioche</sub-title>
+    <category lang="fr">Actualites</category>
+    <category lang="fr">Mag Actualites</category>
+    <subtitles type="teletext"/>
+    </rating>
+  </programme>
+  <programme start="20261021184900 +0200" stop="20261021194500 +0200" channel="CanalPlus.fr">
+    <title lang="fr">Clique</title>
+    <sub-title lang="fr">Emission du 21 oct. 2026</sub-title>
+    <category lang="fr">Divertissement</category>
+    <category lang="fr">Talk show</category>
+    <subtitles type="teletext"/>
+  </programme>
+  <programme start="20261021194500 +0200" stop="20261021205400 +0200" channel="CanalPlus.fr">
+    <title lang="fr">Canal Champions Club</title>
+    <sub-title lang="fr">Emission du 21 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Football</category>
+  </programme>
+  <programme start="20261021205400 +0200" stop="20261021210000 +0200" channel="CanalPlus.fr">
+    <title lang="fr">Plateau avant-match UEFA Champions League</title>
+    <sub-title lang="fr">Club Bruges - Lens</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Football</category>
+  </programme>
+  <programme start="20261021210000 +0200" stop="20261021225600 +0200" channel="CanalPlus.fr">
+    <title lang="fr">Club Bruges / Lens</title>
+    <sub-title lang="fr">Ligue des champions - 3e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Football</category>
+    <subtitles type="teletext"/>
+  </programme>
+  <programme start="20261021225600 +0200" stop="20261021235800 +0200" channel="CanalPlus.fr">
+    <title lang="fr">Canal Champions Club le debrief</title>
+    <sub-title lang="fr">Emission du 21 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Football</category>
+  </programme>
+  <programme start="20261021235800 +0200" stop="20261022002900 +0200" channel="CanalPlus.fr">
+    <title lang="fr">Hot Ones</title>
+    <sub-title lang="fr">Emission du 21 oct. 2026</sub-title>
+    <category lang="fr">Divertissement</category>
+    <category lang="fr">Divertissement Humour</category>
+    <subtitles type="teletext"/>
+  </programme>
+  <programme start="20261023203600 +0200" stop="20261023211000 +0200" channel="CanalPlus.fr">
+    <title lang="fr">Super plan</title>
+    <sub-title lang="fr">Emission du 20 oct. 2026</sub-title>
+    <category lang="fr">Cinema</category>
+    <category lang="fr">Mag Cinema</category>
+    <subtitles type="teletext"/>
+    </rating>
+  </programme>
+  <programme start="20261023211000 +0200" stop="20261023224000 +0200" channel="CanalPlus.fr">
+    <title lang="fr">Cocorico 2</title>
+    <sub-title lang="fr">Film Comédie</sub-title>
+    <category lang="fr">Cinema</category>
+    <category lang="fr">Film Comedie</category>
+    <subtitles type="teletext"/>
+  </programme>
+  <programme start="20261023224000 +0200" stop="20261024001800 +0200" channel="CanalPlus.fr">
+    <title lang="fr">Chasse gardée 2</title>
+    <sub-title lang="fr">Film Comédie</sub-title>
+    <category lang="fr">Cinema</category>
+    <category lang="fr">Film Comedie</category>
+    <subtitles type="teletext"/>
+    <review source="Télé-Loisirs" type="text">Le succès du premier volet a forcément enclenché une suite, réunissant la petite troupe de Chasse gardée, tout en y ajoutant de nouveaux venus aux personnages savoureux, comme Maxime Gasteuil et Diane Segard. On n'est évidemment peu surpirs par le déroulement de l'histoire, mais plusieurs séquences comiques fonctionnent très bien.</review>
+  </programme>
+  <programme start="20261024153600 +0200" stop="20261024155600 +0200" channel="CanalPlus.fr">
+    <title lang="fr">Journal du foot</title>
+    <sub-title lang="fr">Emission du 24 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Football</category>
+  </programme>
+  <programme start="20261024155600 +0200" stop="20261024161700 +0200" channel="CanalPlus.fr">
+    <title lang="fr">Samedi sport</title>
+    <sub-title lang="fr">Emission du 24 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261024161700 +0200" stop="20261024162700 +0200" channel="CanalPlus.fr">
+    <title lang="fr">Avant-match Top 14</title>
+    <sub-title lang="fr">7e journée : Multiplex</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Rugby</category>
+  </programme>
+  <programme start="20261024162700 +0200" stop="20261024183500 +0200" channel="CanalPlus.fr">
+    <title lang="fr">Multiplex</title>
+    <sub-title lang="fr">Top 14 - 7e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Rugby</category>
+    <subtitles type="teletext"/>
+  </programme>
+  <programme start="20261024183500 +0200" stop="20261024185200 +0200" channel="CanalPlus.fr">
+    <title lang="fr">Débrief Top 14</title>
+    <sub-title lang="fr">Emission du 24 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Rugby</category>
+  </programme>
+  <programme start="20261024185200 +0200" stop="20261024190200 +0200" channel="CanalPlus.fr">
+    <title lang="fr">Samedi sport JT news</title>
+    <sub-title lang="fr">Emission du 24 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261024190200 +0200" stop="20261024190600 +0200" channel="CanalPlus.fr">
+    <title lang="fr">Samedi sport</title>
+    <sub-title lang="fr">Emission du 24 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261024190600 +0200" stop="20261024194000 +0200" channel="CanalPlus.fr">
+    <title lang="fr">05/06/2027 En route pour Madrid</title>
+    <sub-title lang="fr">3e journée : Paris-SG - FC Barcelone</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Football</category>
+  </programme>
+  <programme start="20261024194000 +0200" stop="20261024205500 +0200" channel="CanalPlus.fr">
+    <title lang="fr">Canal Rugby Club 1re édition</title>
+    <sub-title lang="fr">Emission du 24 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Rugby</category>
+  </programme>
+  <programme start="20261024205500 +0200" stop="20261024210000 +0200" channel="CanalPlus.fr">
+    <title lang="fr">Avant-match Top 14</title>
+    <sub-title lang="fr">Toulon - Pau</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Rugby</category>
+  </programme>
+  <programme start="20261024210000 +0200" stop="20261024225700 +0200" channel="CanalPlus.fr">
+    <title lang="fr">Toulon / Pau</title>
+    <sub-title lang="fr">Top 14 - 7e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Rugby</category>
+    <subtitles type="teletext"/>
+  </programme>
+  <programme start="20261024225700 +0200" stop="20261024231600 +0200" channel="CanalPlus.fr">
+    <title lang="fr">Canal Rugby Club le débrief</title>
+    <sub-title lang="fr">Emission du 24 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Rugby</category>
+  </programme>
+  <programme start="20261025170500 +0100" stop="20261025173000 +0100" channel="CanalPlus.fr">
+    <title lang="fr">The Match</title>
+    <sub-title lang="fr">Sunderland - Leeds United</sub-title>
+    <category lang="fr">Sport</category>
+    <subtitles type="teletext"/>
+  </programme>
+  <programme start="20261025173000 +0100" stop="20261025192600 +0100" channel="CanalPlus.fr">
+    <title lang="fr">Sunderland / Leeds United</title>
+    <sub-title lang="fr">Football. Premier League. 8e journée.</sub-title>
+    <category lang="fr">Sport</category>
+    <subtitles type="teletext"/>
+  </programme>
+  <programme start="20261025192600 +0100" stop="20261025192900 +0100" channel="CanalPlus.fr">
+    <title lang="fr">The Match</title>
+    <sub-title lang="fr">Débrief : Sunderland - Leeds United</sub-title>
+    <category lang="fr">Sport</category>
+    <subtitles type="teletext"/>
+  </programme>
+  <programme start="20261025192900 +0100" stop="20261025202500 +0100" channel="CanalPlus.fr">
+    <title lang="fr">Canal Football Club</title>
+    <category lang="fr">Sport</category>
+    <subtitles type="teletext"/>
+  </programme>
+  <programme start="20261025202500 +0100" stop="20261025210200 +0100" channel="CanalPlus.fr">
+    <title lang="fr">Canal Rugby Club</title>
+    <category lang="fr">Sport</category>
+    <subtitles type="teletext"/>
+  </programme>
+  <programme start="20261025210200 +0100" stop="20261025210500 +0100" channel="CanalPlus.fr">
+    <title lang="fr">Avant-match Top 14</title>
+    <sub-title lang="fr">La Rochelle - Bordeaux-Bègles</sub-title>
+    <category lang="fr">Sport</category>
+    <subtitles type="teletext"/>
+  </programme>
+  <programme start="20261025210500 +0100" stop="20261025230000 +0100" channel="CanalPlus.fr">
+    <title lang="fr">La Rochelle / Bordeaux-Bègles</title>
+    <sub-title lang="fr">Rugby. Top 14. 7e journée.</sub-title>
+    <category lang="fr">Sport</category>
+    <subtitles type="teletext"/>
+  </programme>
+  <programme start="20261021181400 +0200" stop="20261021184000 +0200" channel="CanalPlusFoot.fr">
+    <title lang="fr">Plateau avant-match UEFA Champions League</title>
+    <sub-title lang="fr">Lille - Galatasaray</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Football</category>
+  </programme>
+  <programme start="20261021184000 +0200" stop="20261021204600 +0200" channel="CanalPlusFoot.fr">
+    <title lang="fr">Lille / Galatasaray</title>
+    <sub-title lang="fr">Ligue des champions - 3e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261021204600 +0200" stop="20261021205500 +0200" channel="CanalPlusFoot.fr">
+    <title lang="fr">Plateau avant-match UEFA Champions League</title>
+    <sub-title lang="fr">Bayern Munich - Arsenal</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Football</category>
+  </programme>
+  <programme start="20261021205500 +0200" stop="20261021230400 +0200" channel="CanalPlusFoot.fr">
+    <title lang="fr">Bayern Munich / Arsenal</title>
+    <sub-title lang="fr">Ligue des champions - 3e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261021230400 +0200" stop="20261021233800 +0200" channel="CanalPlusFoot.fr">
+    <title lang="fr">Inside Robert Pirès</title>
+    <sub-title lang="fr">Doc. Sport</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Doc Sport</category>
+  </programme>
+  <programme start="20261021233800 +0200" stop="20261022004800 +0200" channel="CanalPlusFoot.fr">
+    <title lang="fr">Club Bruges / Lens</title>
+    <sub-title lang="fr">Ligue des champions - 3e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Football</category>
+    <subtitles type="teletext"/>
+  </programme>
+  <programme start="20261023201700 +0200" stop="20261023205500 +0200" channel="CanalPlusFoot.fr">
+    <title lang="fr">Jour de foot</title>
+    <sub-title lang="fr">Emission du 23 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Football</category>
+  </programme>
+  <programme start="20261023205500 +0200" stop="20261023230000 +0200" channel="CanalPlusFoot.fr">
+    <title lang="fr">Paris-SG / Montpellier</title>
+    <sub-title lang="fr">Arkema Première Ligue - 6e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261024153000 +0200" stop="20261024155500 +0200" channel="CanalPlusFoot.fr">
+    <title lang="fr">Match of ze Day</title>
+    <sub-title lang="fr">MATCH OF ZE DAY J8 Avant Arsenal / Everton 24.10.26</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261024155500 +0200" stop="20261024180200 +0200" channel="CanalPlusFoot.fr">
+    <title lang="fr">Arsenal / Everton</title>
+    <sub-title lang="fr">Premier League - 8e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261024180200 +0200" stop="20261024182500 +0200" channel="CanalPlusFoot.fr">
+    <title lang="fr">Match of ze Day</title>
+    <sub-title lang="fr">MATCH OF ZE DAY 2J8 Avant Chelsea / Tottenham 24.10.26</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261024182500 +0200" stop="20261024203300 +0200" channel="CanalPlusFoot.fr">
+    <title lang="fr">Chelsea / Tottenham</title>
+    <sub-title lang="fr">Premier League - 8e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261024203300 +0200" stop="20261024205500 +0200" channel="CanalPlusFoot.fr">
+    <title lang="fr">Soir de Première Ligue</title>
+    <sub-title lang="fr">Lyon - Marseille</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Football</category>
+  </programme>
+  <programme start="20261024205500 +0200" stop="20261024225700 +0200" channel="CanalPlusFoot.fr">
+    <title lang="fr">Lyon / Marseille</title>
+    <sub-title lang="fr">Arkema Première Ligue - 6e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261024225700 +0200" stop="20261024231700 +0200" channel="CanalPlusFoot.fr">
+    <title lang="fr">Débrief Arkema Première Ligue</title>
+    <sub-title lang="fr">Emission du 24 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Football</category>
+  </programme>
+  <programme start="20261025170300 +0100" stop="20261025173000 +0100" channel="CanalPlusFoot.fr">
+    <title lang="fr">The Match</title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261025173000 +0100" stop="20261025192600 +0100" channel="CanalPlusFoot.fr">
+    <title lang="fr">Sunderland / Leeds United</title>
+    <sub-title lang="fr">Football. Premier League. 8e journée.</sub-title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261025192600 +0100" stop="20261025192900 +0100" channel="CanalPlusFoot.fr">
+    <title lang="fr">The Match</title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261025192900 +0100" stop="20261025202400 +0100" channel="CanalPlusFoot.fr">
+    <title lang="fr">Canal Football Club</title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261025202400 +0100" stop="20261025205400 +0100" channel="CanalPlusFoot.fr">
+    <title lang="fr">05/06/2027 En route pour Madrid</title>
+    <sub-title lang="fr">3e journée : PSG - Barça</sub-title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261025205400 +0100" stop="20261025223000 +0100" channel="CanalPlusFoot.fr">
+    <title lang="fr">Histoire de Champions</title>
+    <sub-title lang="fr">Zinédine Zidane</sub-title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261025223000 +0100" stop="20261026001300 +0100" channel="CanalPlusFoot.fr">
+    <title lang="fr">Liverpool / Brighton &amp; Hove Albion</title>
+    <sub-title lang="fr">Football. Premier League. 8e journée.</sub-title>
+    <category lang="fr">Sport</category>
+    <previously-shown/>
+  </programme>
+  <programme start="20261021184500 +0200" stop="20261021194500 +0200" channel="CanalPlusLive1.fr">
+    <title lang="fr">Programme à venir</title>
+    <sub-title lang="fr">Emission du 21 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261021194500 +0200" stop="20261021204000 +0200" channel="CanalPlusLive1.fr">
+    <title lang="fr">Canal Champions Club</title>
+    <sub-title lang="fr">Emission du 21 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Football</category>
+  </programme>
+  <programme start="20261021204000 +0200" stop="20261021205400 +0200" channel="CanalPlusLive1.fr">
+    <title lang="fr">Programme à venir</title>
+    <sub-title lang="fr">Emission du 21 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261021205400 +0200" stop="20261021205900 +0200" channel="CanalPlusLive1.fr">
+    <title lang="fr">Plateau avant-match UEFA Champions League</title>
+    <sub-title lang="fr">Club Bruges - Lens</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Football</category>
+  </programme>
+  <programme start="20261021205900 +0200" stop="20261021210000 +0200" channel="CanalPlusLive1.fr">
+    <title lang="fr">Programme à venir</title>
+    <sub-title lang="fr">Emission du 21 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261021210000 +0200" stop="20261021225600 +0200" channel="CanalPlusLive1.fr">
+    <title lang="fr">Club Bruges / Lens</title>
+    <sub-title lang="fr">Ligue des champions - 3e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Football</category>
+    <subtitles type="teletext"/>
+  </programme>
+  <programme start="20261021225600 +0200" stop="20261021235600 +0200" channel="CanalPlusLive1.fr">
+    <title lang="fr">Canal Champions Club le debrief</title>
+    <sub-title lang="fr">Emission du 21 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Football</category>
+  </programme>
+  <programme start="20261021235600 +0200" stop="20261022005600 +0200" channel="CanalPlusLive1.fr">
+    <title lang="fr">Programme terminé</title>
+    <sub-title lang="fr">Emission du 21 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261023205000 +0200" stop="20261023210000 +0200" channel="CanalPlusLive1.fr">
+    <title lang="fr">Soir de rugby avant-match</title>
+    <sub-title lang="fr">Emission du 23 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Rugby</category>
+  </programme>
+  <programme start="20261023210000 +0200" stop="20261023225000 +0200" channel="CanalPlusLive1.fr">
+    <title lang="fr">Grenoble / Biarritz</title>
+    <sub-title lang="fr">Pro D2 - 8e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Rugby</category>
+  </programme>
+  <programme start="20261023225000 +0200" stop="20261023234500 +0200" channel="CanalPlusLive1.fr">
+    <title lang="fr">Soir de rugby</title>
+    <sub-title lang="fr">Emission du 23 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Rugby</category>
+  </programme>
+  <programme start="20261024162000 +0200" stop="20261024172000 +0200" channel="CanalPlusLive1.fr">
+    <title lang="fr">Programme terminé</title>
+    <sub-title lang="fr">Emission du 24 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261024172000 +0200" stop="20261024183900 +0200" channel="CanalPlusLive1.fr">
+    <title lang="fr">Vivez en direct les évènements de CANAL+</title>
+    <sub-title lang="fr">Pas de diffusion</sub-title>
+    <category lang="fr">Pas de diffusion</category>
+    <category lang="fr">Pas de diffusion</category>
+  </programme>
+  <programme start="20261024183900 +0200" stop="20261024193900 +0200" channel="CanalPlusLive1.fr">
+    <title lang="fr">Programme à venir</title>
+    <sub-title lang="fr">Emission du 24 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261024193900 +0200" stop="20261024204300 +0200" channel="CanalPlusLive1.fr">
+    <title lang="fr">Canal Rugby Club 1re édition</title>
+    <sub-title lang="fr">Emission du 24 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Rugby</category>
+  </programme>
+  <programme start="20261024204300 +0200" stop="20261024205500 +0200" channel="CanalPlusLive1.fr">
+    <title lang="fr">Programme à venir</title>
+    <sub-title lang="fr">Emission du 24 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261024205500 +0200" stop="20261024205900 +0200" channel="CanalPlusLive1.fr">
+    <title lang="fr">Avant-match Top 14</title>
+    <sub-title lang="fr">Toulon - Pau</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Rugby</category>
+  </programme>
+  <programme start="20261024205900 +0200" stop="20261024225500 +0200" channel="CanalPlusLive1.fr">
+    <title lang="fr">Toulon / Pau</title>
+    <sub-title lang="fr">Top 14 - 7e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Rugby</category>
+    <subtitles type="teletext"/>
+  </programme>
+  <programme start="20261024225500 +0200" stop="20261024231200 +0200" channel="CanalPlusLive1.fr">
+    <title lang="fr">Canal Rugby Club le débrief</title>
+    <sub-title lang="fr">Emission du 24 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Rugby</category>
+  </programme>
+  <programme start="20261025153400 +0100" stop="20261025200000 +0100" channel="CanalPlusLive1.fr">
+    <title lang="fr">Vivez en direct les évènements de CANAL+</title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261025200000 +0100" stop="20261026000000 +0100" channel="CanalPlusLive1.fr">
+    <title lang="fr">Vivez en direct les évènements de CANAL+</title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261021181400 +0200" stop="20261021183400 +0200" channel="CanalPlusLive2.fr">
+    <title lang="fr">Plateau avant-match UEFA Champions League</title>
+    <sub-title lang="fr">Lille - Galatasaray</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Football</category>
+  </programme>
+  <programme start="20261021183400 +0200" stop="20261021184000 +0200" channel="CanalPlusLive2.fr">
+    <title lang="fr">Programme à venir</title>
+    <sub-title lang="fr">Emission du 21 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261021184000 +0200" stop="20261021202600 +0200" channel="CanalPlusLive2.fr">
+    <title lang="fr">Lille / Galatasaray</title>
+    <sub-title lang="fr">Ligue des champions - 3e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261021202600 +0200" stop="20261021204600 +0200" channel="CanalPlusLive2.fr">
+    <title lang="fr">Programme à venir</title>
+    <sub-title lang="fr">Emission du 21 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261021204600 +0200" stop="20261021205400 +0200" channel="CanalPlusLive2.fr">
+    <title lang="fr">Plateau avant-match UEFA Champions League</title>
+    <sub-title lang="fr">Bayern Munich - Arsenal</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Football</category>
+  </programme>
+  <programme start="20261021205400 +0200" stop="20261021205500 +0200" channel="CanalPlusLive2.fr">
+    <title lang="fr">Programme à venir</title>
+    <sub-title lang="fr">Emission du 21 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261021205500 +0200" stop="20261021225500 +0200" channel="CanalPlusLive2.fr">
+    <title lang="fr">Bayern Munich / Arsenal</title>
+    <sub-title lang="fr">Ligue des champions - 3e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261021225500 +0200" stop="20261021235500 +0200" channel="CanalPlusLive2.fr">
+    <title lang="fr">Programme terminé</title>
+    <sub-title lang="fr">Emission du 21 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261021235500 +0200" stop="20261022070000 +0200" channel="CanalPlusLive2.fr">
+    <title lang="fr">Vivez en direct les évènements de CANAL+</title>
+    <sub-title lang="fr">Pas de diffusion</sub-title>
+    <category lang="fr">Pas de diffusion</category>
+    <category lang="fr">Pas de diffusion</category>
+  </programme>
+  <programme start="20261023205500 +0200" stop="20261023225500 +0200" channel="CanalPlusLive2.fr">
+    <title lang="fr">Provence Rugby / Béziers</title>
+    <sub-title lang="fr">Pro D2 - 8e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Rugby</category>
+  </programme>
+  <programme start="20261023225500 +0200" stop="20261023235500 +0200" channel="CanalPlusLive2.fr">
+    <title lang="fr">Programme terminé</title>
+    <sub-title lang="fr">Emission du 23 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261024152800 +0200" stop="20261024162800 +0200" channel="CanalPlusLive2.fr">
+    <title lang="fr">Programme à venir</title>
+    <sub-title lang="fr">Emission du 24 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261024162800 +0200" stop="20261024182800 +0200" channel="CanalPlusLive2.fr">
+    <title lang="fr">Bayonne / Lyon</title>
+    <sub-title lang="fr">Top 14 - 7e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Rugby</category>
+  </programme>
+  <programme start="20261024182800 +0200" stop="20261024192800 +0200" channel="CanalPlusLive2.fr">
+    <title lang="fr">Programme terminé</title>
+    <sub-title lang="fr">Emission du 24 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261024192800 +0200" stop="20261025000000 +0200" channel="CanalPlusLive2.fr">
+    <title lang="fr">Vivez en direct les évènements de CANAL+</title>
+    <sub-title lang="fr">Pas de diffusion</sub-title>
+    <category lang="fr">Pas de diffusion</category>
+    <category lang="fr">Pas de diffusion</category>
+  </programme>
+  <programme start="20261025165500 +0100" stop="20261025175500 +0100" channel="CanalPlusLive2.fr">
+    <title lang="fr">Programme terminé</title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261025175500 +0100" stop="20261026000000 +0100" channel="CanalPlusLive2.fr">
+    <title lang="fr">Vivez en direct les évènements de CANAL+</title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261021183500 +0200" stop="20261021184500 +0200" channel="CanalPlusLive3.fr">
+    <title lang="fr">Plateau avant-match UEFA Champions League</title>
+    <sub-title lang="fr">Côme - Manchester United</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Football</category>
+  </programme>
+  <programme start="20261021184500 +0200" stop="20261021204500 +0200" channel="CanalPlusLive3.fr">
+    <title lang="fr">Côme / Manchester United</title>
+    <sub-title lang="fr">Ligue des champions - 3e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261021204500 +0200" stop="20261021205100 +0200" channel="CanalPlusLive3.fr">
+    <title lang="fr">Programme à venir</title>
+    <sub-title lang="fr">Emission du 21 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261021205100 +0200" stop="20261021205900 +0200" channel="CanalPlusLive3.fr">
+    <title lang="fr">Plateau avant-match UEFA Champions League</title>
+    <sub-title lang="fr">Real Madrid - Leipzig</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Football</category>
+  </programme>
+  <programme start="20261021205900 +0200" stop="20261021210000 +0200" channel="CanalPlusLive3.fr">
+    <title lang="fr">Programme à venir</title>
+    <sub-title lang="fr">Emission du 21 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261021210000 +0200" stop="20261021230000 +0200" channel="CanalPlusLive3.fr">
+    <title lang="fr">Real Madrid / Leipzig</title>
+    <sub-title lang="fr">Ligue des champions - 3e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261021230000 +0200" stop="20261022000000 +0200" channel="CanalPlusLive3.fr">
+    <title lang="fr">Programme terminé</title>
+    <sub-title lang="fr">Emission du 21 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261023212600 +0200" stop="20261023222600 +0200" channel="CanalPlusLive3.fr">
+    <title lang="fr">Programme terminé</title>
+    <sub-title lang="fr">Emission du 23 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261023222600 +0200" stop="20261024070000 +0200" channel="CanalPlusLive3.fr">
+    <title lang="fr">Vivez en direct les évènements de CANAL+</title>
+    <sub-title lang="fr">Pas de diffusion</sub-title>
+    <category lang="fr">Pas de diffusion</category>
+    <category lang="fr">Pas de diffusion</category>
+  </programme>
+  <programme start="20261024153000 +0200" stop="20261024163000 +0200" channel="CanalPlusLive3.fr">
+    <title lang="fr">Programme à venir</title>
+    <sub-title lang="fr">Emission du 24 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261024163000 +0200" stop="20261024183000 +0200" channel="CanalPlusLive3.fr">
+    <title lang="fr">Toulouse / Perpignan</title>
+    <sub-title lang="fr">Top 14 - 7e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Rugby</category>
+  </programme>
+  <programme start="20261024183000 +0200" stop="20261024193000 +0200" channel="CanalPlusLive3.fr">
+    <title lang="fr">Programme terminé</title>
+    <sub-title lang="fr">Emission du 24 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261024193000 +0200" stop="20261025000000 +0200" channel="CanalPlusLive3.fr">
+    <title lang="fr">Vivez en direct les évènements de CANAL+</title>
+    <sub-title lang="fr">Pas de diffusion</sub-title>
+    <category lang="fr">Pas de diffusion</category>
+    <category lang="fr">Pas de diffusion</category>
+  </programme>
+  <programme start="20261025165500 +0100" stop="20261025175500 +0100" channel="CanalPlusLive3.fr">
+    <title lang="fr">Programme terminé</title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261025175500 +0100" stop="20261026000000 +0100" channel="CanalPlusLive3.fr">
+    <title lang="fr">Vivez en direct les évènements de CANAL+</title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261021180000 +0200" stop="20261021195500 +0200" channel="CanalPlusLive4.fr">
+    <title lang="fr">Vivez en direct les évènements de CANAL+</title>
+    <sub-title lang="fr">Pas de diffusion</sub-title>
+    <category lang="fr">Pas de diffusion</category>
+    <category lang="fr">Pas de diffusion</category>
+  </programme>
+  <programme start="20261021195500 +0200" stop="20261021205500 +0200" channel="CanalPlusLive4.fr">
+    <title lang="fr">Programme à venir</title>
+    <sub-title lang="fr">Emission du 21 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261021205500 +0200" stop="20261021225500 +0200" channel="CanalPlusLive4.fr">
+    <title lang="fr">Inter Milan / Chakhtior Donetsk</title>
+    <sub-title lang="fr">Ligue des champions - 3e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261021225500 +0200" stop="20261021235500 +0200" channel="CanalPlusLive4.fr">
+    <title lang="fr">Programme terminé</title>
+    <sub-title lang="fr">Emission du 21 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261021235500 +0200" stop="20261022060000 +0200" channel="CanalPlusLive4.fr">
+    <title lang="fr">Vivez en direct les évènements de CANAL+</title>
+    <sub-title lang="fr">Pas de diffusion</sub-title>
+    <category lang="fr">Pas de diffusion</category>
+    <category lang="fr">Pas de diffusion</category>
+  </programme>
+  <programme start="20261023212600 +0200" stop="20261023222600 +0200" channel="CanalPlusLive4.fr">
+    <title lang="fr">Programme terminé</title>
+    <sub-title lang="fr">Emission du 23 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261023222600 +0200" stop="20261024040000 +0200" channel="CanalPlusLive4.fr">
+    <title lang="fr">Vivez en direct les évènements de CANAL+</title>
+    <sub-title lang="fr">Pas de diffusion</sub-title>
+    <category lang="fr">Pas de diffusion</category>
+    <category lang="fr">Pas de diffusion</category>
+  </programme>
+  <programme start="20261024153000 +0200" stop="20261024163000 +0200" channel="CanalPlusLive4.fr">
+    <title lang="fr">Programme à venir</title>
+    <sub-title lang="fr">Emission du 24 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261024163000 +0200" stop="20261024183000 +0200" channel="CanalPlusLive4.fr">
+    <title lang="fr">Castres / Stade Français Paris</title>
+    <sub-title lang="fr">Top 14 - 7e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Rugby</category>
+  </programme>
+  <programme start="20261024183000 +0200" stop="20261024193000 +0200" channel="CanalPlusLive4.fr">
+    <title lang="fr">Programme terminé</title>
+    <sub-title lang="fr">Emission du 24 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261024193000 +0200" stop="20261025011500 +0200" channel="CanalPlusLive4.fr">
+    <title lang="fr">Vivez en direct les évènements de CANAL+</title>
+    <sub-title lang="fr">Pas de diffusion</sub-title>
+    <category lang="fr">Pas de diffusion</category>
+    <category lang="fr">Pas de diffusion</category>
+  </programme>
+  <programme start="20261025165500 +0100" stop="20261025175500 +0100" channel="CanalPlusLive4.fr">
+    <title lang="fr">Programme terminé</title>
+    <sub-title lang="fr">Emission du 25 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261025175500 +0100" stop="20261026000000 +0100" channel="CanalPlusLive4.fr">
+    <title lang="fr">Vivez en direct les évènements de CANAL+</title>
+    <sub-title lang="fr">Pas de diffusion</sub-title>
+    <category lang="fr">Pas de diffusion</category>
+    <category lang="fr">Pas de diffusion</category>
+  </programme>
+  <programme start="20261021180000 +0200" stop="20261021195500 +0200" channel="CanalPlusLive5.fr">
+    <title lang="fr">Vivez en direct les évènements de CANAL+</title>
+    <sub-title lang="fr">Pas de diffusion</sub-title>
+    <category lang="fr">Pas de diffusion</category>
+    <category lang="fr">Pas de diffusion</category>
+  </programme>
+  <programme start="20261021195500 +0200" stop="20261021205500 +0200" channel="CanalPlusLive5.fr">
+    <title lang="fr">Programme à venir</title>
+    <sub-title lang="fr">Emission du 21 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261021205500 +0200" stop="20261021225500 +0200" channel="CanalPlusLive5.fr">
+    <title lang="fr">Aston Villa / Viking Stavanger</title>
+    <sub-title lang="fr">Ligue des champions - 3e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261021225500 +0200" stop="20261021235500 +0200" channel="CanalPlusLive5.fr">
+    <title lang="fr">Programme terminé</title>
+    <sub-title lang="fr">Emission du 21 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261021235500 +0200" stop="20261022060000 +0200" channel="CanalPlusLive5.fr">
+    <title lang="fr">Vivez en direct les évènements de CANAL+</title>
+    <sub-title lang="fr">Pas de diffusion</sub-title>
+    <category lang="fr">Pas de diffusion</category>
+    <category lang="fr">Pas de diffusion</category>
+  </programme>
+  <programme start="20261023212600 +0200" stop="20261023222600 +0200" channel="CanalPlusLive5.fr">
+    <title lang="fr">Programme terminé</title>
+    <sub-title lang="fr">Emission du 23 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261023222600 +0200" stop="20261024020000 +0200" channel="CanalPlusLive5.fr">
+    <title lang="fr">Vivez en direct les évènements de CANAL+</title>
+    <sub-title lang="fr">Pas de diffusion</sub-title>
+    <category lang="fr">Pas de diffusion</category>
+    <category lang="fr">Pas de diffusion</category>
+  </programme>
+  <programme start="20261024153000 +0200" stop="20261024163000 +0200" channel="CanalPlusLive5.fr">
+    <title lang="fr">Programme à venir</title>
+    <sub-title lang="fr">Emission du 24 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261024163000 +0200" stop="20261024183000 +0200" channel="CanalPlusLive5.fr">
+    <title lang="fr">Racing 92 / Montpellier</title>
+    <sub-title lang="fr">Top 14 - 7e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Rugby</category>
+  </programme>
+  <programme start="20261024183000 +0200" stop="20261024193000 +0200" channel="CanalPlusLive5.fr">
+    <title lang="fr">Programme terminé</title>
+    <sub-title lang="fr">Emission du 24 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261024193000 +0200" stop="20261025013000 +0200" channel="CanalPlusLive5.fr">
+    <title lang="fr">Vivez en direct les évènements de CANAL+</title>
+    <sub-title lang="fr">Pas de diffusion</sub-title>
+    <category lang="fr">Pas de diffusion</category>
+    <category lang="fr">Pas de diffusion</category>
+  </programme>
+  <programme start="20261025180000 +0100" stop="20261026000000 +0100" channel="CanalPlusLive5.fr">
+    <title lang="fr">Vivez en direct les évènements de CANAL+</title>
+    <sub-title lang="fr">Pas de diffusion</sub-title>
+    <category lang="fr">Pas de diffusion</category>
+    <category lang="fr">Pas de diffusion</category>
+  </programme>
+  <programme start="20261021180000 +0200" stop="20261021195500 +0200" channel="CanalPlusLive6.fr">
+    <title lang="fr">Vivez en direct les évènements de CANAL+</title>
+    <sub-title lang="fr">Pas de diffusion</sub-title>
+    <category lang="fr">Pas de diffusion</category>
+    <category lang="fr">Pas de diffusion</category>
+  </programme>
+  <programme start="20261021195500 +0200" stop="20261021205500 +0200" channel="CanalPlusLive6.fr">
+    <title lang="fr">Programme à venir</title>
+    <sub-title lang="fr">Emission du 21 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261021205500 +0200" stop="20261021225500 +0200" channel="CanalPlusLive6.fr">
+    <title lang="fr">Betis Séville / Feyenoord Rotterdam</title>
+    <sub-title lang="fr">Ligue des champions - 3e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261021225500 +0200" stop="20261021235500 +0200" channel="CanalPlusLive6.fr">
+    <title lang="fr">Programme terminé</title>
+    <sub-title lang="fr">Emission du 21 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261021235500 +0200" stop="20261022060000 +0200" channel="CanalPlusLive6.fr">
+    <title lang="fr">Vivez en direct les évènements de CANAL+</title>
+    <sub-title lang="fr">Pas de diffusion</sub-title>
+    <category lang="fr">Pas de diffusion</category>
+    <category lang="fr">Pas de diffusion</category>
+  </programme>
+  <programme start="20261023212600 +0200" stop="20261023222600 +0200" channel="CanalPlusLive6.fr">
+    <title lang="fr">Programme terminé</title>
+    <sub-title lang="fr">Emission du 23 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261023222600 +0200" stop="20261024020000 +0200" channel="CanalPlusLive6.fr">
+    <title lang="fr">Vivez en direct les évènements de CANAL+</title>
+    <sub-title lang="fr">Pas de diffusion</sub-title>
+    <category lang="fr">Pas de diffusion</category>
+    <category lang="fr">Pas de diffusion</category>
+  </programme>
+  <programme start="20261024152500 +0200" stop="20261024155500 +0200" channel="CanalPlusLive6.fr">
+    <title lang="fr">Programme à venir</title>
+    <sub-title lang="fr">Emission du 24 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261024155500 +0200" stop="20261024175500 +0200" channel="CanalPlusLive6.fr">
+    <title lang="fr">Arsenal / Everton</title>
+    <sub-title lang="fr">Premier League - 8e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261024175500 +0200" stop="20261024182500 +0200" channel="CanalPlusLive6.fr">
+    <title lang="fr">Programme à venir</title>
+    <sub-title lang="fr">Emission du 24 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261024182500 +0200" stop="20261024202500 +0200" channel="CanalPlusLive6.fr">
+    <title lang="fr">Chelsea / Tottenham</title>
+    <sub-title lang="fr">Premier League - 8e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261024202500 +0200" stop="20261024212500 +0200" channel="CanalPlusLive6.fr">
+    <title lang="fr">Programme terminé</title>
+    <sub-title lang="fr">Emission du 24 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261024212500 +0200" stop="20261025020000 +0100" channel="CanalPlusLive6.fr">
+    <title lang="fr">Vivez en direct les évènements de CANAL+</title>
+    <sub-title lang="fr">Pas de diffusion</sub-title>
+    <category lang="fr">Pas de diffusion</category>
+    <category lang="fr">Pas de diffusion</category>
+  </programme>
+  <programme start="20261025180000 +0100" stop="20261026000000 +0100" channel="CanalPlusLive6.fr">
+    <title lang="fr">Vivez en direct les évènements de CANAL+</title>
+    <sub-title lang="fr">Pas de diffusion</sub-title>
+    <category lang="fr">Pas de diffusion</category>
+    <category lang="fr">Pas de diffusion</category>
+  </programme>
+  <programme start="20261021180000 +0200" stop="20261021195500 +0200" channel="CanalPlusLive7.fr">
+    <title lang="fr">Vivez en direct les évènements de CANAL+</title>
+    <sub-title lang="fr">Pas de diffusion</sub-title>
+    <category lang="fr">Pas de diffusion</category>
+    <category lang="fr">Pas de diffusion</category>
+  </programme>
+  <programme start="20261021195500 +0200" stop="20261021205500 +0200" channel="CanalPlusLive7.fr">
+    <title lang="fr">Programme à venir</title>
+    <sub-title lang="fr">Emission du 21 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261021205500 +0200" stop="20261021225500 +0200" channel="CanalPlusLive7.fr">
+    <title lang="fr">Sporting Club Portugal / LASK Linz</title>
+    <sub-title lang="fr">Ligue des champions - 3e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261021225500 +0200" stop="20261021235500 +0200" channel="CanalPlusLive7.fr">
+    <title lang="fr">Programme terminé</title>
+    <sub-title lang="fr">Emission du 21 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261021235500 +0200" stop="20261022060000 +0200" channel="CanalPlusLive7.fr">
+    <title lang="fr">Vivez en direct les évènements de CANAL+</title>
+    <sub-title lang="fr">Pas de diffusion</sub-title>
+    <category lang="fr">Pas de diffusion</category>
+    <category lang="fr">Pas de diffusion</category>
+  </programme>
+  <programme start="20261023205500 +0200" stop="20261023225500 +0200" channel="CanalPlusLive7.fr">
+    <title lang="fr">Ipswich Town / Nottingham Forest</title>
+    <sub-title lang="fr">Premier League - 8e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261023225500 +0200" stop="20261023235500 +0200" channel="CanalPlusLive7.fr">
+    <title lang="fr">Programme terminé</title>
+    <sub-title lang="fr">Emission du 23 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261024155500 +0200" stop="20261024175500 +0200" channel="CanalPlusLive7.fr">
+    <title lang="fr">Coventry City / Fulham</title>
+    <sub-title lang="fr">Premier League - 8e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261024175500 +0200" stop="20261024185500 +0200" channel="CanalPlusLive7.fr">
+    <title lang="fr">Programme terminé</title>
+    <sub-title lang="fr">Emission du 24 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261024185500 +0200" stop="20261025010000 +0200" channel="CanalPlusLive7.fr">
+    <title lang="fr">Vivez en direct les évènements de CANAL+</title>
+    <sub-title lang="fr">Pas de diffusion</sub-title>
+    <category lang="fr">Pas de diffusion</category>
+    <category lang="fr">Pas de diffusion</category>
+  </programme>
+  <programme start="20261025180000 +0100" stop="20261026000000 +0100" channel="CanalPlusLive7.fr">
+    <title lang="fr">Vivez en direct les évènements de CANAL+</title>
+    <sub-title lang="fr">Pas de diffusion</sub-title>
+    <category lang="fr">Pas de diffusion</category>
+    <category lang="fr">Pas de diffusion</category>
+  </programme>
+  <programme start="20261021210000 +0200" stop="20261021230000 +0200" channel="CanalPlusPremierLeague.fr">
+    <title lang="fr">La Premier League sur Canal+</title>
+    <sub-title lang="fr">Mag. Football</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Football</category>
+  </programme>
+  <programme start="20261021230000 +0200" stop="20261022010000 +0200" channel="CanalPlusPremierLeague.fr">
+    <title lang="fr">La Premier League sur Canal+</title>
+    <sub-title lang="fr">Mag. Football</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Football</category>
+  </programme>
+  <programme start="20261023202600 +0200" stop="20261023202700 +0200" channel="CanalPlusPremierLeague.fr">
+    <title lang="fr">Sommaire Premier League</title>
+    <sub-title lang="fr">8e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Football</category>
+  </programme>
+  <programme start="20261023202700 +0200" stop="20261023205300 +0200" channel="CanalPlusPremierLeague.fr">
+    <title lang="fr">Premier League Preview</title>
+    <sub-title lang="fr">8e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Football</category>
+  </programme>
+  <programme start="20261023205300 +0200" stop="20261023205500 +0200" channel="CanalPlusPremierLeague.fr">
+    <title lang="fr">Sommaire Premier League</title>
+    <sub-title lang="fr">8e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Football</category>
+  </programme>
+  <programme start="20261023205500 +0200" stop="20261023225500 +0200" channel="CanalPlusPremierLeague.fr">
+    <title lang="fr">Ipswich Town / Nottingham Forest</title>
+    <sub-title lang="fr">Premier League - 8e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261023225500 +0200" stop="20261024010000 +0200" channel="CanalPlusPremierLeague.fr">
+    <title lang="fr">La Premier League sur Canal+</title>
+    <sub-title lang="fr">Mag. Football</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Football</category>
+  </programme>
+  <programme start="20261024153500 +0200" stop="20261024155500 +0200" channel="CanalPlusPremierLeague.fr">
+    <title lang="fr">Match of ze Day</title>
+    <sub-title lang="fr">Emission du 24 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261024155500 +0200" stop="20261024180200 +0200" channel="CanalPlusPremierLeague.fr">
+    <title lang="fr">Arsenal / Everton</title>
+    <sub-title lang="fr">Premier League - 8e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261024180200 +0200" stop="20261024182500 +0200" channel="CanalPlusPremierLeague.fr">
+    <title lang="fr">Match of ze Day</title>
+    <sub-title lang="fr">Emission du 24 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261024182500 +0200" stop="20261024203000 +0200" channel="CanalPlusPremierLeague.fr">
+    <title lang="fr">Chelsea / Tottenham</title>
+    <sub-title lang="fr">Premier League - 8e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261024203000 +0200" stop="20261024203200 +0200" channel="CanalPlusPremierLeague.fr">
+    <title lang="fr">Sommaire Premier League</title>
+    <sub-title lang="fr">8e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Football</category>
+  </programme>
+  <programme start="20261024203200 +0200" stop="20261024221400 +0200" channel="CanalPlusPremierLeague.fr">
+    <title lang="fr">Coventry City / Fulham</title>
+    <sub-title lang="fr">Premier League - 8e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261024221400 +0200" stop="20261024221600 +0200" channel="CanalPlusPremierLeague.fr">
+    <title lang="fr">Sommaire Premier League</title>
+    <sub-title lang="fr">8e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Football</category>
+  </programme>
+  <programme start="20261024221600 +0200" stop="20261024235800 +0200" channel="CanalPlusPremierLeague.fr">
+    <title lang="fr">Aston Villa / Manchester City</title>
+    <sub-title lang="fr">Premier League - 8e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261025170300 +0100" stop="20261025173000 +0100" channel="CanalPlusPremierLeague.fr">
+    <title lang="fr">The Match</title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261025173000 +0100" stop="20261025192600 +0100" channel="CanalPlusPremierLeague.fr">
+    <title lang="fr">Sunderland / Leeds United</title>
+    <sub-title lang="fr">Football. Premier League. 8e journée.</sub-title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261025192600 +0100" stop="20261025195300 +0100" channel="CanalPlusPremierLeague.fr">
+    <title lang="fr">The Match</title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261025195300 +0100" stop="20261025230000 +0100" channel="CanalPlusPremierLeague.fr">
+    <title lang="fr">La Premier League sur Canal+</title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261021183500 +0200" stop="20261021184500 +0200" channel="CanalPlusSport.fr">
+    <title lang="fr">Plateau avant-match UEFA Champions League</title>
+    <sub-title lang="fr">Côme - Manchester United</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Football</category>
+  </programme>
+  <programme start="20261021184500 +0200" stop="20261021205100 +0200" channel="CanalPlusSport.fr">
+    <title lang="fr">Côme / Manchester United</title>
+    <sub-title lang="fr">Ligue des champions - 3e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261021205100 +0200" stop="20261021210000 +0200" channel="CanalPlusSport.fr">
+    <title lang="fr">Plateau avant-match UEFA Champions League</title>
+    <sub-title lang="fr">Real Madrid - Leipzig</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Football</category>
+  </programme>
+  <programme start="20261021210000 +0200" stop="20261021230100 +0200" channel="CanalPlusSport.fr">
+    <title lang="fr">Real Madrid / Leipzig</title>
+    <sub-title lang="fr">Ligue des champions - 3e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261021230100 +0200" stop="20261022004600 +0200" channel="CanalPlusSport.fr">
+    <title lang="fr">Bayern Munich / Arsenal</title>
+    <sub-title lang="fr">Ligue des champions - 3e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261023204300 +0200" stop="20261023210000 +0200" channel="CanalPlusSport.fr">
+    <title lang="fr">Formule 2 : Chasing the Dream - Saison 8</title>
+    <sub-title lang="fr">Madrid</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Doc Sport</category>
+  </programme>
+  <programme start="20261023210000 +0200" stop="20261023220000 +0200" channel="CanalPlusSport.fr">
+    <title lang="fr">2e tour</title>
+    <sub-title lang="fr">Championnat des Bermudes</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Golf</category>
+  </programme>
+  <programme start="20261023220000 +0200" stop="20261023223700 +0200" channel="CanalPlusSport.fr">
+    <title lang="fr">Décrypté</title>
+    <sub-title lang="fr">Décrypté Pavon Farmers 2024</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261023223700 +0200" stop="20261023224500 +0200" channel="CanalPlusSport.fr">
+    <title lang="fr">Zapsport 360</title>
+    <sub-title lang="fr">Emission du 23 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261023224500 +0200" stop="20261024001000 +0200" channel="CanalPlusSport.fr">
+    <title lang="fr">Essais libres 2</title>
+    <sub-title lang="fr">Grand Prix des Etats-Unis</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Formule 1</category>
+  </programme>
+  <programme start="20261024162800 +0200" stop="20261024183100 +0200" channel="CanalPlusSport.fr">
+    <title lang="fr">Bayonne / Lyon</title>
+    <sub-title lang="fr">Top 14 - 7e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Rugby</category>
+  </programme>
+  <programme start="20261024183100 +0200" stop="20261024191500 +0200" channel="CanalPlusSport.fr">
+    <title lang="fr">Inspecteur Dupin</title>
+    <sub-title lang="fr">Jean Alesi</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Doc Sport</category>
+    <subtitles type="teletext"/>
+  </programme>
+  <programme start="20261024191500 +0200" stop="20261024204100 +0200" channel="CanalPlusSport.fr">
+    <title lang="fr">Essais libres 3</title>
+    <sub-title lang="fr">Grand Prix des Etats-Unis</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Formule 1</category>
+  </programme>
+  <programme start="20261024204100 +0200" stop="20261024223800 +0200" channel="CanalPlusSport.fr">
+    <title lang="fr">3e tour</title>
+    <sub-title lang="fr">Championnat des Bermudes</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Golf</category>
+  </programme>
+  <programme start="20261024223800 +0200" stop="20261025002200 +0200" channel="CanalPlusSport.fr">
+    <title lang="fr">Essais qualificatifs</title>
+    <sub-title lang="fr">Grand Prix des Etats-Unis</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Formule 1</category>
+  </programme>
+  <programme start="20261025154800 +0100" stop="20261025163500 +0100" channel="CanalPlusSport.fr">
+    <title lang="fr">Automobilisme : Grand Prix des Etats-Unis</title>
+    <sub-title lang="fr">Grand Prix des Etats-Unis. 2e course. F1 Academy.</sub-title>
+    <category lang="fr">Sport</category>
+    <previously-shown/>
+  </programme>
+  <programme start="20261025163500 +0100" stop="20261025172500 +0100" channel="CanalPlusSport.fr">
+    <title lang="fr">Automobilisme : Grand Prix des Etats-Unis</title>
+    <sub-title lang="fr">Grand Prix des Etats-Unis. Feature Race. F1 Academy.</sub-title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261025172500 +0100" stop="20261025174000 +0100" channel="CanalPlusSport.fr">
+    <title lang="fr">Fractionné F1</title>
+    <sub-title lang="fr">Doriane Pin Mercedes F1</sub-title>
+    <category lang="fr">Sport</category>
+    <previously-shown/>
+  </programme>
+  <programme start="20261025174000 +0100" stop="20261025194000 +0100" channel="CanalPlusSport.fr">
+    <title lang="fr">La Rochelle / Lyon</title>
+    <sub-title lang="fr">Rugby. Elite 1 féminine. 1re  journée.</sub-title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261025194000 +0100" stop="20261025205900 +0100" channel="CanalPlusSport.fr">
+    <title lang="fr">Golf : Championnat des Bermudes</title>
+    <sub-title lang="fr">Championnat des Bermudes. 4e tour. Circuit américain.</sub-title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261025205900 +0100" stop="20261025220000 +0100" channel="CanalPlusSport.fr">
+    <title lang="fr">Le Rocher des champions</title>
+    <category lang="fr">Culture Infos</category>
+    <previously-shown/>
+    <subtitles type="teletext"/>
+  </programme>
+  <programme start="20261025220000 +0100" stop="20261025223300 +0100" channel="CanalPlusSport.fr">
+    <title lang="fr">Intérieur sport</title>
+    <category lang="fr">Culture Infos</category>
+    <previously-shown/>
+  </programme>
+  <programme start="20261025223300 +0100" stop="20261025232900 +0100" channel="CanalPlusSport.fr">
+    <title lang="fr">Voyages au bout de l'effort</title>
+    <sub-title lang="fr">Luchadors - Mexique</sub-title>
+    <category lang="fr">Culture Infos</category>
+    <previously-shown/>
+    <subtitles type="teletext"/>
+  </programme>
+  <programme start="20261021180000 +0200" stop="20261021190000 +0200" channel="CanalPlusSport360.fr">
+    <title lang="fr">Club 360</title>
+    <sub-title lang="fr">Emission du 21 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261021190000 +0200" stop="20261021190600 +0200" channel="CanalPlusSport360.fr">
+    <title lang="fr">Zapsport 360</title>
+    <sub-title lang="fr">Emission du 21 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261021190600 +0200" stop="20261021192800 +0200" channel="CanalPlusSport360.fr">
+    <title lang="fr">On Board moto</title>
+    <sub-title lang="fr">Emission du 15 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sports mecaniques</category>
+  </programme>
+  <programme start="20261021192800 +0200" stop="20261021200500 +0200" channel="CanalPlusSport360.fr">
+    <title lang="fr">Débrief Moto</title>
+    <sub-title lang="fr">Bezzecchi s'impose en Indonésie, Martin reprend la tête du championnat</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sports mecaniques</category>
+  </programme>
+  <programme start="20261021200500 +0200" stop="20261021203800 +0200" channel="CanalPlusSport360.fr">
+    <title lang="fr">On Board F1</title>
+    <sub-title lang="fr">Emission du 15 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sports mecaniques</category>
+  </programme>
+  <programme start="20261021203800 +0200" stop="20261021205000 +0200" channel="CanalPlusSport360.fr">
+    <title lang="fr">Zapsport 360</title>
+    <sub-title lang="fr">Emission du 21 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261021205000 +0200" stop="20261021210000 +0200" channel="CanalPlusSport360.fr">
+    <title lang="fr">Plateau avant-match UEFA Champions League</title>
+    <sub-title lang="fr">3e journée : Multiplex</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Football</category>
+  </programme>
+  <programme start="20261021210000 +0200" stop="20261021225900 +0200" channel="CanalPlusSport360.fr">
+    <title lang="fr">Multiplex</title>
+    <sub-title lang="fr">Ligue des champions - 3e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261021225900 +0200" stop="20261022002400 +0200" channel="CanalPlusSport360.fr">
+    <title lang="fr">Génération Biétry</title>
+    <sub-title lang="fr">Doc. Sport</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Doc Sport</category>
+    <subtitles type="teletext"/>
+  </programme>
+  <programme start="20261023205000 +0200" stop="20261023210000 +0200" channel="CanalPlusSport360.fr">
+    <title lang="fr">Soir de rugby avant-match</title>
+    <sub-title lang="fr">Emission du 23 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Rugby</category>
+  </programme>
+  <programme start="20261023210000 +0200" stop="20261023225000 +0200" channel="CanalPlusSport360.fr">
+    <title lang="fr">Grenoble / Biarritz</title>
+    <sub-title lang="fr">Pro D2 - 8e journée</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Rugby</category>
+  </programme>
+  <programme start="20261023225000 +0200" stop="20261023233500 +0200" channel="CanalPlusSport360.fr">
+    <title lang="fr">Soir de rugby</title>
+    <sub-title lang="fr">Emission du 23 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Rugby</category>
+  </programme>
+  <programme start="20261024154600 +0200" stop="20261024171200 +0200" channel="CanalPlusSport360.fr">
+    <title lang="fr">Essais libres 2</title>
+    <sub-title lang="fr">Grand Prix des Etats-Unis</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Formule 1</category>
+  </programme>
+  <programme start="20261024171200 +0200" stop="20261024172300 +0200" channel="CanalPlusSport360.fr">
+    <title lang="fr">La compile Zapsport 360</title>
+    <sub-title lang="fr">Emission du 24 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261024172300 +0200" stop="20261024184500 +0200" channel="CanalPlusSport360.fr">
+    <title lang="fr">Let Me Run</title>
+    <sub-title lang="fr">Doc. Sport</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Doc Sport</category>
+    <subtitles type="teletext"/>
+  </programme>
+  <programme start="20261024184500 +0200" stop="20261024193000 +0200" channel="CanalPlusSport360.fr">
+    <title lang="fr">Sports Week-end</title>
+    <sub-title lang="fr">Emission du 24 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261024193000 +0200" stop="20261024203100 +0200" channel="CanalPlusSport360.fr">
+    <title lang="fr">Essais qualificatifs 1 et 2 des Moto GP</title>
+    <sub-title lang="fr">Grand Prix d'Australie</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Moto GP</category>
+  </programme>
+  <programme start="20261024203100 +0200" stop="20261024210100 +0200" channel="CanalPlusSport360.fr">
+    <title lang="fr">La grille Moto</title>
+    <sub-title lang="fr">Grand Prix d'Australie : Sprint des Moto GP</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sports mecaniques</category>
+  </programme>
+  <programme start="20261024210100 +0200" stop="20261024213200 +0200" channel="CanalPlusSport360.fr">
+    <title lang="fr">La course Sprint</title>
+    <sub-title lang="fr">Grand Prix d'Australie</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Moto GP</category>
+  </programme>
+  <programme start="20261024213200 +0200" stop="20261024220800 +0200" channel="CanalPlusSport360.fr">
+    <title lang="fr">Débrief Moto</title>
+    <sub-title lang="fr">Emission du 24 oct. 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sports mecaniques</category>
+  </programme>
+  <programme start="20261024220800 +0200" stop="20261024233000 +0200" channel="CanalPlusSport360.fr">
+    <title lang="fr">Trail 360</title>
+    <sub-title lang="fr">Ben Dhiman et Blandine L’Hirondel : victoires historiques à l’UTMB 2026</sub-title>
+    <category lang="fr">Sport</category>
+    <category lang="fr">Mag Sport</category>
+    <subtitles type="teletext"/>
+  </programme>
+  <programme start="20261025155700 +0100" stop="20261025170000 +0100" channel="CanalPlusSport360.fr">
+    <title lang="fr">Soir de padel</title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261025170000 +0100" stop="20261025173000 +0100" channel="CanalPlusSport360.fr">
+    <title lang="fr">Sports Week-end</title>
+    <category lang="fr">Autre</category>
+  </programme>
+  <programme start="20261025173000 +0100" stop="20261025173300 +0100" channel="CanalPlusSport360.fr">
+    <title lang="fr">Zapsport 360</title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261025173300 +0100" stop="20261025182200 +0100" channel="CanalPlusSport360.fr">
+    <title lang="fr">Moto GP : Grand Prix d'Australie</title>
+    <sub-title lang="fr">Grand Prix d'Australie. La course des Moto GP. Championnat du monde de vitesse.</sub-title>
+    <category lang="fr">Sport</category>
+    <previously-shown/>
+  </programme>
+  <programme start="20261025182200 +0100" stop="20261025183800 +0100" channel="CanalPlusSport360.fr">
+    <title lang="fr">Moto : Le podium</title>
+    <sub-title lang="fr">Grand Prix d'Australie</sub-title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261025183800 +0100" stop="20261025191800 +0100" channel="CanalPlusSport360.fr">
+    <title lang="fr">Débrief Moto</title>
+    <sub-title lang="fr">Grand Prix d'Australie</sub-title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261025191800 +0100" stop="20261025195300 +0100" channel="CanalPlusSport360.fr">
+    <title lang="fr">On Board F1</title>
+    <sub-title lang="fr">Grand Prix de Singapour</sub-title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261025195300 +0100" stop="20261025205600 +0100" channel="CanalPlusSport360.fr">
+    <title lang="fr">La grille</title>
+    <sub-title lang="fr">Formule 1 : Grand Prix des Etats-Unis</sub-title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261025205600 +0100" stop="20261025210000 +0100" channel="CanalPlusSport360.fr">
+    <title lang="fr">Plateau sports mécaniques</title>
+    <sub-title lang="fr">Formule 1 : Grand Prix des Etats-Unis</sub-title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261025210000 +0100" stop="20261025224600 +0100" channel="CanalPlusSport360.fr">
+    <title lang="fr">Formule 1 : Grand Prix des Etats-Unis</title>
+    <sub-title lang="fr">Grand Prix des Etats-Unis. La course. Championnat du monde.</sub-title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261025224600 +0100" stop="20261025225800 +0100" channel="CanalPlusSport360.fr">
+    <title lang="fr">Le podium</title>
+    <sub-title lang="fr">Grand Prix des Etats-Unis</sub-title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261025225800 +0100" stop="20261025233200 +0100" channel="CanalPlusSport360.fr">
+    <title lang="fr">Formula One, le mag</title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261021181500 +0200" stop="20261021185500 +0200" channel="DAZN.fr">
+    <title lang="fr">NFL Gameday</title>
+    <category lang="fr">Football américain</category>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261021185500 +0200" stop="20261021192000 +0200" channel="DAZN.fr">
+    <title lang="fr">NFL Extra</title>
+    <sub-title lang="fr">Episode 4</sub-title>
+    <category lang="fr">Football américain</category>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261021192000 +0200" stop="20261021222500 +0200" channel="DAZN.fr">
+    <title lang="fr">Green Bay Packers / Dallas Cowboys</title>
+    <sub-title lang="fr">Football américain. NFL 6e journée .</sub-title>
+    <category lang="fr">Football américain</category>
+    <category lang="fr">Emission sportive</category>
+  </programme>
+  <programme start="20261021222500 +0200" stop="20261022003500 +0200" channel="DAZN.fr">
+    <title lang="fr">Betis Séville / FC Barcelone</title>
+    <sub-title lang="fr">Football. Liga 9e journée.</sub-title>
+    <category lang="fr">Football</category>
+    <category lang="fr">Emission sportive</category>
+  </programme>
+  <programme start="20261023215000 +0200" stop="20261024000500 +0200" channel="DAZN.fr">
+    <title lang="fr">AS Roma / Genoa</title>
+    <sub-title lang="fr">Football. Serie A 7e journée.</sub-title>
+    <category lang="fr">Football</category>
+    <category lang="fr">Emission sportive</category>
+  </programme>
+  <programme start="20261024165500 +0200" stop="20261024170000 +0200" channel="DAZN.fr">
+    <title lang="fr">Inside Serie A</title>
+    <category lang="fr">Football</category>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024170000 +0200" stop="20261024172500 +0200" channel="DAZN.fr">
+    <title lang="fr">Regardez les meilleurs matches de LaLiga, Ligue 1, Serie A, FA Cup et bien plus encore sur DAZN</title>
+    <category lang="fr">Multisports</category>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024172500 +0200" stop="20261024175000 +0200" channel="DAZN.fr">
+    <title lang="fr">Inside Serie A</title>
+    <sub-title lang="fr">Episode 7</sub-title>
+    <category lang="fr">Football</category>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024175000 +0200" stop="20261024200000 +0200" channel="DAZN.fr">
+    <title lang="fr">Naples / AS Roma</title>
+    <sub-title lang="fr">Football. Serie A 8e journée.</sub-title>
+    <category lang="fr">Football</category>
+    <category lang="fr">Emission sportive</category>
+  </programme>
+  <programme start="20261024200000 +0200" stop="20261024200500 +0200" channel="DAZN.fr">
+    <title lang="fr">Regardez les meilleurs matches de LaLiga, Ligue 1, Serie A, FA Cup et bien plus encore sur DAZN</title>
+    <category lang="fr">Multisports</category>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024200500 +0200" stop="20261024203000 +0200" channel="DAZN.fr">
+    <title lang="fr">Clubland</title>
+    <sub-title lang="fr">Monaco - Hertha</sub-title>
+    <category lang="fr">Magazine sportif</category>
+    <category lang="fr">Magazine</category>
+  </programme>
+  <programme start="20261024203000 +0200" stop="20261024205500 +0200" channel="DAZN.fr">
+    <title lang="fr">LaLiga Show</title>
+    <sub-title lang="fr">Episode 9</sub-title>
+    <category lang="fr">Football</category>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024205500 +0200" stop="20261024230000 +0200" channel="DAZN.fr">
+    <title lang="fr">Atlético Madrid / Deportivo La Corogne</title>
+    <sub-title lang="fr">Football. Liga 10e journée.</sub-title>
+    <category lang="fr">Football</category>
+    <category lang="fr">Emission sportive</category>
+  </programme>
+  <programme start="20261025150000 +0100" stop="20261025171500 +0100" channel="DAZN.fr">
+    <title lang="fr">Monaco / Lille</title>
+    <sub-title lang="fr">Football. Ligue 1 McDonald's 8e  journée .</sub-title>
+    <category lang="fr">Football</category>
+    <category lang="fr">Emission sportive</category>
+  </programme>
+  <programme start="20261025171500 +0100" stop="20261025210000 +0100" channel="DAZN.fr">
+    <title lang="fr">Marseille / Le Havre</title>
+    <sub-title lang="fr">Football. Ligue 1 McDonald's 8e  journée .</sub-title>
+    <category lang="fr">Football</category>
+    <category lang="fr">Emission sportive</category>
+  </programme>
+  <programme start="20261025210000 +0100" stop="20261026011000 +0100" channel="DAZN.fr">
+    <title lang="fr">FC Barcelone / Real Madrid</title>
+    <sub-title lang="fr">Football. Liga 10e journée.</sub-title>
+    <category lang="fr">Football</category>
+    <category lang="fr">Emission sportive</category>
+  </programme>
+  <programme start="20261021183000 +0200" stop="20261021205700 +0200" channel="LEquipe21.fr">
+    <title lang="fr">L'Equipe de Greg</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261021205700 +0200" stop="20261021230000 +0200" channel="LEquipe21.fr">
+    <title lang="fr">La grande soirée Ligue des Champions</title>
+    <sub-title lang="fr">Spéciale : Bruges - Lens</sub-title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261021230000 +0200" stop="20261022003700 +0200" channel="LEquipe21.fr">
+    <title lang="fr">L'Equipe du soir</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261023200700 +0200" stop="20261023204000 +0200" channel="LEquipe21.fr">
+    <title lang="fr">A toute allure !</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261023204000 +0200" stop="20261023230000 +0200" channel="LEquipe21.fr">
+    <title lang="fr">Courses de caisses à savon</title>
+    <category lang="fr">Sports fun</category>
+  </programme>
+  <programme start="20261024150000 +0200" stop="20261024170000 +0200" channel="LEquipe21.fr">
+    <title lang="fr">L'Equipe explore</title>
+    <sub-title lang="fr">JPP</sub-title>
+    <category lang="fr">Documentaire</category>
+  </programme>
+  <programme start="20261024170000 +0200" stop="20261024213000 +0200" channel="LEquipe21.fr">
+    <title lang="fr">Badminton : Internationaux de France</title>
+    <category lang="fr">Badminton</category>
+  </programme>
+  <programme start="20261024213000 +0200" stop="20261024222500 +0200" channel="LEquipe21.fr">
+    <title lang="fr">Trimarans Ultim : au-delà des limites</title>
+    <sub-title lang="fr">Un nouveau duo</sub-title>
+    <category lang="fr">Documentaire</category>
+  </programme>
+  <programme start="20261024222500 +0200" stop="20261024232000 +0200" channel="LEquipe21.fr">
+    <title lang="fr">Trimarans Ultim : au-delà des limites</title>
+    <sub-title lang="fr">Deux skippers, 24 heures de course</sub-title>
+    <category lang="fr">Documentaire</category>
+  </programme>
+  <programme start="20261025184500 +0100" stop="20261025190000 +0100" channel="LEquipe21.fr">
+    <title lang="fr">Basket-ball : avant-match</title>
+    <sub-title lang="fr">5e journée : Pau-Lacq-Orthez - Limoges</sub-title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261025190000 +0100" stop="20261025211000 +0100" channel="LEquipe21.fr">
+    <title lang="fr">Basket-ball : Betclic Elite</title>
+    <sub-title lang="fr">Pau-Orthez / Limoges. Betclic Elite. 5e journée.</sub-title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261025211000 +0100" stop="20261026001000 +0100" channel="LEquipe21.fr">
+    <title lang="fr">Football américain : NFL</title>
+    <sub-title lang="fr">New Orleans Saints / Pittsburgh Steelers. NFL. 7e journée.</sub-title>
+    <category lang="fr">Sport</category>
+    <premiere/>
+  </programme>
+  <programme start="20261021193000 +0200" stop="20261021193700 +0200" channel="Ligue1Plus.fr">
+    <title lang="fr">Joueurs de légende</title>
+    <sub-title lang="fr">Neymar</sub-title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261021193700 +0200" stop="20261021195000 +0200" channel="Ligue1Plus.fr">
+    <title lang="fr">Rivalités de légende</title>
+    <sub-title lang="fr">Paris-SG - Marseille</sub-title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261021195000 +0200" stop="20261021195600 +0200" channel="Ligue1Plus.fr">
+    <title lang="fr">Best of Ligue 1</title>
+    <sub-title lang="fr">Top 20 buts Nenê</sub-title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261021195600 +0200" stop="20261021200000 +0200" channel="Ligue1Plus.fr">
+    <title lang="fr">Best of Ligue 1</title>
+    <sub-title lang="fr">Top 10 buts Laurent Blanc</sub-title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261021200000 +0200" stop="20261021214500 +0200" channel="Ligue1Plus.fr">
+    <title lang="fr">Le SAV de la Ligue 1 McDonald's</title>
+    <sub-title lang="fr">7e journée</sub-title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261021214500 +0200" stop="20261021233000 +0200" channel="Ligue1Plus.fr">
+    <title lang="fr">Football : Match d'archives | Saint-Etienne / Lyon</title>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261021233000 +0200" stop="20261022013000 +0200" channel="Ligue1Plus.fr">
+    <title lang="fr">Football : Ligue 1 McDonald's | Lyon / Paris-SG</title>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261021180000 +0200" stop="20261021210000 +0200" channel="Ligue1Plus10.fr">
+    <title lang="fr">Ligue 1+ 10</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261021210000 +0200" stop="20261022000000 +0200" channel="Ligue1Plus10.fr">
+    <title lang="fr">Ligue 1+ 10</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261023210000 +0200" stop="20261024000000 +0200" channel="Ligue1Plus10.fr">
+    <title lang="fr">Ligue 1+ 10</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024150000 +0200" stop="20261024180000 +0200" channel="Ligue1Plus10.fr">
+    <title lang="fr">Ligue 1+ 10</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024180000 +0200" stop="20261024210000 +0200" channel="Ligue1Plus10.fr">
+    <title lang="fr">Ligue 1+ 10</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024210000 +0200" stop="20261025000000 +0200" channel="Ligue1Plus10.fr">
+    <title lang="fr">Ligue 1+ 10</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261025150000 +0100" stop="20261025180000 +0100" channel="Ligue1Plus10.fr">
+    <title lang="fr">Ligue 1+ 10</title>
+    <category lang="fr">Magazine sportif</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261025180000 +0100" stop="20261025203800 +0100" channel="Ligue1Plus10.fr">
+    <title lang="fr">Ligue 1+ 10</title>
+    <category lang="fr">Magazine sportif</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261025180000 +0100" stop="20261025203800 +0100" channel="Ligue1Plus10.fr">
+    <title lang="fr">Ligue 1+ 10</title>
+    <category lang="fr">Magazine sportif</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261025203800 +0100" stop="20261025224000 +0100" channel="Ligue1Plus10.fr">
+    <title lang="fr">Football : Ligue 1 McDonald's - Paris-SG / Lyon</title>
+    <category lang="fr">Emission sportive</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261025224000 +0100" stop="20261026000000 +0100" channel="Ligue1Plus10.fr">
+    <title lang="fr">Ligue 1+ 10</title>
+    <category lang="fr">Magazine sportif</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261021180000 +0200" stop="20261021210000 +0200" channel="Ligue1Plus2.fr">
+    <title lang="fr">Ligue 1+ 2</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261021210000 +0200" stop="20261022000000 +0200" channel="Ligue1Plus2.fr">
+    <title lang="fr">Ligue 1+ 2</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024150000 +0200" stop="20261024164500 +0200" channel="Ligue1Plus2.fr">
+    <title lang="fr">Ligue 1+ 2</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024164500 +0200" stop="20261024191000 +0200" channel="Ligue1Plus2.fr">
+    <title lang="fr">Football : Ligue 1 McDonald's | Toulouse / Troyes</title>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261024191000 +0200" stop="20261024210000 +0200" channel="Ligue1Plus2.fr">
+    <title lang="fr">Ligue 1+ 2</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024210000 +0200" stop="20261025000000 +0200" channel="Ligue1Plus2.fr">
+    <title lang="fr">Ligue 1+ 2</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261025150000 +0100" stop="20261025180000 +0100" channel="Ligue1Plus2.fr">
+    <title lang="fr">Ligue 1+ 2</title>
+    <category lang="fr">Magazine sportif</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261025180000 +0100" stop="20261025203700 +0100" channel="Ligue1Plus2.fr">
+    <title lang="fr">Ligue 1+ 2</title>
+    <category lang="fr">Magazine sportif</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261025180000 +0100" stop="20261025203700 +0100" channel="Ligue1Plus2.fr">
+    <title lang="fr">Ligue 1+ 2</title>
+    <category lang="fr">Magazine sportif</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261025203700 +0100" stop="20261025224000 +0100" channel="Ligue1Plus2.fr">
+    <title lang="fr">Football : Ligue 1 McDonald's - Paris-SG / Lyon</title>
+    <category lang="fr">Emission sportive</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261025224000 +0100" stop="20261026000000 +0100" channel="Ligue1Plus2.fr">
+    <title lang="fr">Ligue 1+ 2</title>
+    <category lang="fr">Magazine sportif</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261021180000 +0200" stop="20261021210000 +0200" channel="Ligue1Plus3.fr">
+    <title lang="fr">Ligue 1+ 3</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261021210000 +0200" stop="20261022000000 +0200" channel="Ligue1Plus3.fr">
+    <title lang="fr">Ligue 1+ 3</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261023210000 +0200" stop="20261024000000 +0200" channel="Ligue1Plus3.fr">
+    <title lang="fr">Ligue 1+ 3</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024150000 +0200" stop="20261024180000 +0200" channel="Ligue1Plus3.fr">
+    <title lang="fr">Ligue 1+ 3</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024180000 +0200" stop="20261024203800 +0200" channel="Ligue1Plus3.fr">
+    <title lang="fr">Ligue 1+ 3</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024203800 +0200" stop="20261024224000 +0200" channel="Ligue1Plus3.fr">
+    <title lang="fr">Football : Ligue 1 McDonald's | Lens / Paris FC</title>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261024224000 +0200" stop="20261025000000 +0200" channel="Ligue1Plus3.fr">
+    <title lang="fr">Ligue 1+ 3</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261025164000 +0100" stop="20261025180000 +0100" channel="Ligue1Plus3.fr">
+    <title lang="fr">Ligue 1+ 3</title>
+    <category lang="fr">Magazine sportif</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261025180000 +0100" stop="20261025210000 +0100" channel="Ligue1Plus3.fr">
+    <title lang="fr">Ligue 1+ 3</title>
+    <category lang="fr">Magazine sportif</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261025180000 +0100" stop="20261025210000 +0100" channel="Ligue1Plus3.fr">
+    <title lang="fr">Ligue 1+ 3</title>
+    <category lang="fr">Magazine sportif</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261025210000 +0100" stop="20261026000000 +0100" channel="Ligue1Plus3.fr">
+    <title lang="fr">Ligue 1+ 3</title>
+    <category lang="fr">Magazine sportif</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261021180000 +0200" stop="20261021210000 +0200" channel="Ligue1Plus4.fr">
+    <title lang="fr">Ligue 1+ 4</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261021210000 +0200" stop="20261022000000 +0200" channel="Ligue1Plus4.fr">
+    <title lang="fr">Ligue 1+ 4</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261023210000 +0200" stop="20261024000000 +0200" channel="Ligue1Plus4.fr">
+    <title lang="fr">Ligue 1+ 4</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024150000 +0200" stop="20261024180000 +0200" channel="Ligue1Plus4.fr">
+    <title lang="fr">Ligue 1+ 4</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024180000 +0200" stop="20261024210000 +0200" channel="Ligue1Plus4.fr">
+    <title lang="fr">Ligue 1+ 4</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024210000 +0200" stop="20261025000000 +0200" channel="Ligue1Plus4.fr">
+    <title lang="fr">Ligue 1+ 4</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261025150000 +0100" stop="20261025165500 +0100" channel="Ligue1Plus4.fr">
+    <title lang="fr">Ligue 1+ 4</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261025165500 +0100" stop="20261025194500 +0100" channel="Ligue1Plus4.fr">
+    <title lang="fr">Football : Ligue 1 McDonald's | Rennes / Strasbourg</title>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261025194500 +0100" stop="20261025210000 +0100" channel="Ligue1Plus4.fr">
+    <title lang="fr">Ligue 1+ 4</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261025210000 +0100" stop="20261026000000 +0100" channel="Ligue1Plus4.fr">
+    <title lang="fr">Ligue 1+ 4</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261021180000 +0200" stop="20261021210000 +0200" channel="Ligue1Plus5.fr">
+    <title lang="fr">Ligue 1+ 5</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261021210000 +0200" stop="20261022000000 +0200" channel="Ligue1Plus5.fr">
+    <title lang="fr">Ligue 1+ 5</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261023210000 +0200" stop="20261024000000 +0200" channel="Ligue1Plus5.fr">
+    <title lang="fr">Ligue 1+ 5</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024150000 +0200" stop="20261024180000 +0200" channel="Ligue1Plus5.fr">
+    <title lang="fr">Ligue 1+ 5</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024180000 +0200" stop="20261024210000 +0200" channel="Ligue1Plus5.fr">
+    <title lang="fr">Ligue 1+ 5</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024210000 +0200" stop="20261025000000 +0200" channel="Ligue1Plus5.fr">
+    <title lang="fr">Ligue 1+ 5</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261025150000 +0100" stop="20261025165500 +0100" channel="Ligue1Plus5.fr">
+    <title lang="fr">Ligue 1+ 5</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261025165500 +0100" stop="20261025194500 +0100" channel="Ligue1Plus5.fr">
+    <title lang="fr">Football : Ligue 1 McDonald's | Marseille / Le Havre</title>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261025194500 +0100" stop="20261025210000 +0100" channel="Ligue1Plus5.fr">
+    <title lang="fr">Ligue 1+ 5</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261025210000 +0100" stop="20261026000000 +0100" channel="Ligue1Plus5.fr">
+    <title lang="fr">Ligue 1+ 5</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261021180000 +0200" stop="20261021210000 +0200" channel="Ligue1Plus6.fr">
+    <title lang="fr">Ligue 1+ 6</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261021210000 +0200" stop="20261022000000 +0200" channel="Ligue1Plus6.fr">
+    <title lang="fr">Ligue 1+ 6</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261023210000 +0200" stop="20261024000000 +0200" channel="Ligue1Plus6.fr">
+    <title lang="fr">Ligue 1+ 6</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024150000 +0200" stop="20261024180000 +0200" channel="Ligue1Plus6.fr">
+    <title lang="fr">Ligue 1+ 6</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024180000 +0200" stop="20261024210000 +0200" channel="Ligue1Plus6.fr">
+    <title lang="fr">Ligue 1+ 6</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024210000 +0200" stop="20261025000000 +0200" channel="Ligue1Plus6.fr">
+    <title lang="fr">Ligue 1+ 6</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261025150000 +0100" stop="20261025165500 +0100" channel="Ligue1Plus6.fr">
+    <title lang="fr">Ligue 1+ 6</title>
+    <category lang="fr">Magazine sportif</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261025165500 +0100" stop="20261025194500 +0100" channel="Ligue1Plus6.fr">
+    <title lang="fr">Football : Ligue 1 McDonald's - Auxerre / Le Mans</title>
+    <category lang="fr">Emission sportive</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261025165500 +0100" stop="20261025194500 +0100" channel="Ligue1Plus6.fr">
+    <title lang="fr">Football : Ligue 1 McDonald's - Auxerre / Le Mans</title>
+    <category lang="fr">Emission sportive</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261025194500 +0100" stop="20261025210000 +0100" channel="Ligue1Plus6.fr">
+    <title lang="fr">Ligue 1+ 6</title>
+    <category lang="fr">Magazine sportif</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261025210000 +0100" stop="20261026000000 +0100" channel="Ligue1Plus6.fr">
+    <title lang="fr">Ligue 1+ 6</title>
+    <category lang="fr">Magazine sportif</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261021180000 +0200" stop="20261021210000 +0200" channel="Ligue1Plus7.fr">
+    <title lang="fr">Ligue 1+ 7</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261021210000 +0200" stop="20261022000000 +0200" channel="Ligue1Plus7.fr">
+    <title lang="fr">Ligue 1+ 7</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261023210000 +0200" stop="20261024000000 +0200" channel="Ligue1Plus7.fr">
+    <title lang="fr">Ligue 1+ 7</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024150000 +0200" stop="20261024180000 +0200" channel="Ligue1Plus7.fr">
+    <title lang="fr">Ligue 1+ 7</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024180000 +0200" stop="20261024210000 +0200" channel="Ligue1Plus7.fr">
+    <title lang="fr">Ligue 1+ 7</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024210000 +0200" stop="20261025000000 +0200" channel="Ligue1Plus7.fr">
+    <title lang="fr">Ligue 1+ 7</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261025150000 +0100" stop="20261025165500 +0100" channel="Ligue1Plus7.fr">
+    <title lang="fr">Ligue 1+ 7</title>
+    <category lang="fr">Magazine sportif</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261025165500 +0100" stop="20261025194500 +0100" channel="Ligue1Plus7.fr">
+    <title lang="fr">Football : Ligue 1 McDonald's - Angers / Lorient</title>
+    <category lang="fr">Emission sportive</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261025165500 +0100" stop="20261025194500 +0100" channel="Ligue1Plus7.fr">
+    <title lang="fr">Football : Ligue 1 McDonald's - Angers / Lorient</title>
+    <category lang="fr">Emission sportive</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261025194500 +0100" stop="20261025210000 +0100" channel="Ligue1Plus7.fr">
+    <title lang="fr">Ligue 1+ 7</title>
+    <category lang="fr">Magazine sportif</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261025210000 +0100" stop="20261026000000 +0100" channel="Ligue1Plus7.fr">
+    <title lang="fr">Ligue 1+ 7</title>
+    <category lang="fr">Magazine sportif</category>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261021180000 +0200" stop="20261021210000 +0200" channel="Ligue1Plus8.fr">
+    <title lang="fr">Ligue 1+ 8</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261021210000 +0200" stop="20261022000000 +0200" channel="Ligue1Plus8.fr">
+    <title lang="fr">Ligue 1+ 8</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261023210000 +0200" stop="20261024000000 +0200" channel="Ligue1Plus8.fr">
+    <title lang="fr">Ligue 1+ 8</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024150000 +0200" stop="20261024180000 +0200" channel="Ligue1Plus8.fr">
+    <title lang="fr">Ligue 1+ 8</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024180000 +0200" stop="20261024210000 +0200" channel="Ligue1Plus8.fr">
+    <title lang="fr">Ligue 1+ 8</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024210000 +0200" stop="20261025000000 +0200" channel="Ligue1Plus8.fr">
+    <title lang="fr">Ligue 1+ 8</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261025150000 +0100" stop="20261025180000 +0100" channel="Ligue1Plus8.fr">
+    <title lang="fr">Ligue 1+ 8</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261025180000 +0100" stop="20261025210000 +0100" channel="Ligue1Plus8.fr">
+    <title lang="fr">Ligue 1+ 8</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261025210000 +0100" stop="20261026000000 +0100" channel="Ligue1Plus8.fr">
+    <title lang="fr">Ligue 1+ 8</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261021180000 +0200" stop="20261021210000 +0200" channel="Ligue1Plus9.fr">
+    <title lang="fr">Ligue 1+ 9</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261021210000 +0200" stop="20261022000000 +0200" channel="Ligue1Plus9.fr">
+    <title lang="fr">Ligue 1+ 9</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261023210000 +0200" stop="20261024000000 +0200" channel="Ligue1Plus9.fr">
+    <title lang="fr">Ligue 1+ 9</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024150000 +0200" stop="20261024180000 +0200" channel="Ligue1Plus9.fr">
+    <title lang="fr">Ligue 1+ 9</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024180000 +0200" stop="20261024210000 +0200" channel="Ligue1Plus9.fr">
+    <title lang="fr">Ligue 1+ 9</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024210000 +0200" stop="20261025000000 +0200" channel="Ligue1Plus9.fr">
+    <title lang="fr">Ligue 1+ 9</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261025150000 +0100" stop="20261025180000 +0100" channel="Ligue1Plus9.fr">
+    <title lang="fr">Ligue 1+ 9</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261025180000 +0100" stop="20261025210000 +0100" channel="Ligue1Plus9.fr">
+    <title lang="fr">Ligue 1+ 9</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261025210000 +0100" stop="20261026000000 +0100" channel="Ligue1Plus9.fr">
+    <title lang="fr">Ligue 1+ 9</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261021183000 +0200" stop="20261021191000 +0200" channel="TF1.fr">
+    <title lang="fr">Ici tout commence</title>
+    <category lang="fr">Série dramatique</category>
+  </programme>
+  <programme start="20261021191000 +0200" stop="20261021195500 +0200" channel="TF1.fr">
+    <title lang="fr">Demain nous appartient</title>
+    <category lang="fr">Série dramatique</category>
+  </programme>
+  <programme start="20261021195500 +0200" stop="20261021200000 +0200" channel="TF1.fr">
+    <title lang="fr">Météo</title>
+    <category lang="fr">Météo</category>
+  </programme>
+  <programme start="20261021200000 +0200" stop="20261021204500 +0200" channel="TF1.fr">
+    <title lang="fr">JT 20h</title>
+    <category lang="fr">Journal</category>
+  </programme>
+  <programme start="20261021204500 +0200" stop="20261021205000 +0200" channel="TF1.fr">
+    <title lang="fr">Petits plats en équilibre</title>
+    <category lang="fr">Magazine de l'art de vivre</category>
+  </programme>
+  <programme start="20261021205000 +0200" stop="20261021205500 +0200" channel="TF1.fr">
+    <title lang="fr">Tirage du Loto</title>
+    <category lang="fr">Jeu</category>
+  </programme>
+  <programme start="20261021205500 +0200" stop="20261021210500 +0200" channel="TF1.fr">
+    <title lang="fr">Météo</title>
+    <category lang="fr">Météo</category>
+  </programme>
+  <programme start="20261021210500 +0200" stop="20261021211000 +0200" channel="TF1.fr">
+    <title lang="fr">Koh-Lanta All Stars, les moments cultes</title>
+    <category lang="fr">Téléréalité</category>
+  </programme>
+  <programme start="20261021211000 +0200" stop="20261021215500 +0200" channel="TF1.fr">
+    <title lang="fr">Tracker</title>
+    <sub-title lang="fr">Sans foi ni loi</sub-title>
+    <category lang="fr">Série</category>
+  </programme>
+  <programme start="20261021215500 +0200" stop="20261021225500 +0200" channel="TF1.fr">
+    <title lang="fr">Tracker</title>
+    <sub-title lang="fr">A l'état sauvage</sub-title>
+    <category lang="fr">Série</category>
+  </programme>
+  <programme start="20261021225500 +0200" stop="20261021234000 +0200" channel="TF1.fr">
+    <title lang="fr">Tracker</title>
+    <sub-title lang="fr">L'élixir des champions</sub-title>
+    <category lang="fr">Série</category>
+  </programme>
+  <programme start="20261021234000 +0200" stop="20261022055000 +0200" channel="TF1.fr">
+    <title lang="fr">Programmes de la nuit</title>
+    <category lang="fr">Programme indéterminé</category>
+  </programme>
+  <programme start="20261023200000 +0200" stop="20261023204500 +0200" channel="TF1.fr">
+    <title lang="fr">JT 20h</title>
+    <category lang="fr">Journal</category>
+  </programme>
+  <programme start="20261023204500 +0200" stop="20261023205000 +0200" channel="TF1.fr">
+    <title lang="fr">Petits plats en équilibre</title>
+    <category lang="fr">Magazine de l'art de vivre</category>
+  </programme>
+  <programme start="20261023205000 +0200" stop="20261023205500 +0200" channel="TF1.fr">
+    <title lang="fr">My Million</title>
+    <category lang="fr">Jeu</category>
+  </programme>
+  <programme start="20261023205500 +0200" stop="20261023210500 +0200" channel="TF1.fr">
+    <title lang="fr">Météo</title>
+    <category lang="fr">Météo</category>
+  </programme>
+  <programme start="20261023210500 +0200" stop="20261023211000 +0200" channel="TF1.fr">
+    <title lang="fr">Koh-Lanta All Stars, les moments cultes</title>
+    <category lang="fr">Téléréalité</category>
+  </programme>
+  <programme start="20261023211000 +0200" stop="20261023223500 +0200" channel="TF1.fr">
+    <title lang="fr">NRJ Music Awards</title>
+    <category lang="fr">Emission spéciale</category>
+  </programme>
+  <programme start="20261023223500 +0200" stop="20261024003000 +0200" channel="TF1.fr">
+    <title lang="fr">NRJ Music Awards</title>
+    <category lang="fr">Emission spéciale</category>
+  </programme>
+  <programme start="20261024161000 +0200" stop="20261024171000 +0200" channel="TF1.fr">
+    <title lang="fr">Les Docs du week-end</title>
+    <sub-title lang="fr">En fanfare ! Un phénomène français</sub-title>
+    <category lang="fr">Magazine de société</category>
+  </programme>
+  <programme start="20261024171000 +0200" stop="20261024181000 +0200" channel="TF1.fr">
+    <title lang="fr">Star Academy, la quotidienne</title>
+    <category lang="fr">Téléréalité</category>
+  </programme>
+  <programme start="20261024181000 +0200" stop="20261024190000 +0200" channel="TF1.fr">
+    <title lang="fr">50mn Inside l'actu</title>
+    <sub-title lang="fr">L'actu</sub-title>
+    <category lang="fr">Magazine de société</category>
+  </programme>
+  <programme start="20261024190000 +0200" stop="20261024195000 +0200" channel="TF1.fr">
+    <title lang="fr">50mn Inside le mag</title>
+    <sub-title lang="fr">Le mag</sub-title>
+    <category lang="fr">Magazine de société</category>
+  </programme>
+  <programme start="20261024195000 +0200" stop="20261024195500 +0200" channel="TF1.fr">
+    <title lang="fr">Petits plats en équilibre</title>
+    <category lang="fr">Magazine de l'art de vivre</category>
+  </programme>
+  <programme start="20261024195500 +0200" stop="20261024200000 +0200" channel="TF1.fr">
+    <title lang="fr">Météo</title>
+    <category lang="fr">Météo</category>
+  </programme>
+  <programme start="20261024200000 +0200" stop="20261024204500 +0200" channel="TF1.fr">
+    <title lang="fr">JT 20h</title>
+    <category lang="fr">Journal</category>
+  </programme>
+  <programme start="20261024204500 +0200" stop="20261024205000 +0200" channel="TF1.fr">
+    <title lang="fr">Tirage du Loto</title>
+    <category lang="fr">Jeu</category>
+  </programme>
+  <programme start="20261024205000 +0200" stop="20261024205500 +0200" channel="TF1.fr">
+    <title lang="fr">Entrepreneurs, nouvelle génération</title>
+    <category lang="fr">Magazine d'information</category>
+  </programme>
+  <programme start="20261024205500 +0200" stop="20261024210000 +0200" channel="TF1.fr">
+    <title lang="fr">Petits plats en équilibre</title>
+    <category lang="fr">Magazine de l'art de vivre</category>
+  </programme>
+  <programme start="20261024210000 +0200" stop="20261024211000 +0200" channel="TF1.fr">
+    <title lang="fr">Météo</title>
+    <category lang="fr">Météo</category>
+  </programme>
+  <programme start="20261024211000 +0200" stop="20261024223000 +0200" channel="TF1.fr">
+    <title lang="fr">Star Academy</title>
+    <category lang="fr">Téléréalité</category>
+  </programme>
+  <programme start="20261024223000 +0200" stop="20261024234500 +0200" channel="TF1.fr">
+    <title lang="fr">Star Academy</title>
+    <category lang="fr">Téléréalité</category>
+  </programme>
+  <programme start="20261025160500 +0100" stop="20261025172000 +0100" channel="TF1.fr">
+    <title lang="fr">Star Academy, la quotidienne S14</title>
+    <category lang="fr">Télé-Réalité</category>
+  </programme>
+  <programme start="20261025172000 +0100" stop="20261025181000 +0100" channel="TF1.fr">
+    <title lang="fr">Sept à huit</title>
+    <category lang="fr">Mag Société</category>
+  </programme>
+  <programme start="20261025181000 +0100" stop="20261025195000 +0100" channel="TF1.fr">
+    <title lang="fr">Sept à huit</title>
+    <category lang="fr">Mag Société</category>
+  </programme>
+  <programme start="20261025195000 +0100" stop="20261025195500 +0100" channel="TF1.fr">
+    <title lang="fr">Entrepreneurs, nouvelle génération</title>
+    <category lang="fr">Magazine</category>
+  </programme>
+  <programme start="20261025195500 +0100" stop="20261025200000 +0100" channel="TF1.fr">
+    <title lang="fr">Météo</title>
+    <category lang="fr">Météo</category>
+  </programme>
+  <programme start="20261025200000 +0100" stop="20261025204500 +0100" channel="TF1.fr">
+    <title lang="fr">JT 20h</title>
+    <category lang="fr">Infos</category>
+  </programme>
+  <programme start="20261025204500 +0100" stop="20261025205000 +0100" channel="TF1.fr">
+    <title lang="fr">TF1, rendez-vous sport</title>
+    <category lang="fr">Mag Sport</category>
+  </programme>
+  <programme start="20261025205000 +0100" stop="20261025205500 +0100" channel="TF1.fr">
+    <title lang="fr">Le goût du détail S4</title>
+    <category lang="fr">Magazine</category>
+  </programme>
+  <programme start="20261025205500 +0100" stop="20261025210000 +0100" channel="TF1.fr">
+    <title lang="fr">Petits plats en équilibre</title>
+    <category lang="fr">Magazine</category>
+  </programme>
+  <programme start="20261025210000 +0100" stop="20261025211000 +0100" channel="TF1.fr">
+    <title lang="fr">Météo</title>
+    <category lang="fr">Météo</category>
+  </programme>
+  <programme start="20261025211000 +0100" stop="20261025232500 +0100" channel="TF1.fr">
+    <title lang="fr">Doctor Strange in the Multiverse of Madness</title>
+    <category lang="fr">Fantastique</category>
+  </programme>
+  <programme start="20261021180000 +0200" stop="20261021183000 +0200" channel="beINSPORTS1.fr">
+    <title lang="fr">Salon VIP</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261021183000 +0200" stop="20261021203000 +0200" channel="beINSPORTS1.fr">
+    <title lang="fr">Handball : Ligue des champions | Zagreb / Paris-SG</title>
+    <category lang="fr">Handball</category>
+  </programme>
+  <programme start="20261021203000 +0200" stop="20261021223000 +0200" channel="beINSPORTS1.fr">
+    <title lang="fr">Volley-ball : Alterna VOLSTAR | Tours / Tourcoing</title>
+    <category lang="fr">Volley-ball</category>
+  </programme>
+  <programme start="20261021223000 +0200" stop="20261021233000 +0200" channel="beINSPORTS1.fr">
+    <title lang="fr">beIN STORY</title>
+    <sub-title lang="fr">Going big</sub-title>
+    <category lang="fr">Documentaire</category>
+  </programme>
+  <programme start="20261021233000 +0200" stop="20261021234500 +0200" channel="beINSPORTS1.fr">
+    <title lang="fr">Ça se passe sur beIN SPORTS</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261021234500 +0200" stop="20261022001500 +0200" channel="beINSPORTS1.fr">
+    <title lang="fr">Sport 50</title>
+    <category lang="fr">Documentaire sportif</category>
+  </programme>
+  <programme start="20261023200000 +0200" stop="20261023220000 +0200" channel="beINSPORTS1.fr">
+    <title lang="fr">Football : Ligue 2 BKT | Multiplex</title>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261023220000 +0200" stop="20261023223000 +0200" channel="beINSPORTS1.fr">
+    <title lang="fr">Football : après-match Ligue 2</title>
+    <sub-title lang="fr">match Ligue 2</sub-title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261023223000 +0200" stop="20261024003000 +0200" channel="beINSPORTS1.fr">
+    <title lang="fr">Football : Bundesliga | Stuttgart / Borussia Mönchengladbach</title>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261024160000 +0200" stop="20261024161500 +0200" channel="beINSPORTS1.fr">
+    <title lang="fr">Football : après-match Ligue 2</title>
+    <sub-title lang="fr">match Ligue 2</sub-title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024161500 +0200" stop="20261024164500 +0200" channel="beINSPORTS1.fr">
+    <title lang="fr">beIN STORY</title>
+    <sub-title lang="fr">Jewels</sub-title>
+    <category lang="fr">Documentaire</category>
+  </programme>
+  <programme start="20261024164500 +0200" stop="20261024183000 +0200" channel="beINSPORTS1.fr">
+    <title lang="fr">Basket-ball : Euroligue masculine | Paris Basketball / Valencia</title>
+    <category lang="fr">Basket-ball</category>
+  </programme>
+  <programme start="20261024183000 +0200" stop="20261024184500 +0200" channel="beINSPORTS1.fr">
+    <title lang="fr">Ça se passe sur beIN SPORTS</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024184500 +0200" stop="20261024191500 +0200" channel="beINSPORTS1.fr">
+    <title lang="fr">This is Paris</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024191500 +0200" stop="20261024200000 +0200" channel="beINSPORTS1.fr">
+    <title lang="fr">Football : avant-match</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024200000 +0200" stop="20261024220000 +0200" channel="beINSPORTS1.fr">
+    <title lang="fr">Football : Ligue 2 BKT | Saint Etienne / Nantes</title>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261024220000 +0200" stop="20261024221500 +0200" channel="beINSPORTS1.fr">
+    <title lang="fr">Football : après-match Ligue 2</title>
+    <sub-title lang="fr">match Ligue 2</sub-title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024221500 +0200" stop="20261024230000 +0200" channel="beINSPORTS1.fr">
+    <title lang="fr">NFL Extra</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261025173000 +0100" stop="20261025180000 +0100" channel="beINSPORTS1.fr">
+    <title lang="fr">SNL NFL</title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261025180000 +0100" stop="20261025210000 +0100" channel="beINSPORTS1.fr">
+    <title lang="fr">Football américain : NFL</title>
+    <sub-title lang="fr">NFL. 7e journée.</sub-title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261025210000 +0100" stop="20261026000000 +0100" channel="beINSPORTS1.fr">
+    <title lang="fr">Football américain : NFL</title>
+    <sub-title lang="fr">NFL. 7e journée.</sub-title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261021180000 +0200" stop="20261021200000 +0200" channel="beINSPORTS2.fr">
+    <title lang="fr">Football</title>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261021200000 +0200" stop="20261021220000 +0200" channel="beINSPORTS2.fr">
+    <title lang="fr">Football</title>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261021220000 +0200" stop="20261022000000 +0200" channel="beINSPORTS2.fr">
+    <title lang="fr">Football</title>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261023200000 +0200" stop="20261023203000 +0200" channel="beINSPORTS2.fr">
+    <title lang="fr">Salon VIP</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261023203000 +0200" stop="20261023204500 +0200" channel="beINSPORTS2.fr">
+    <title lang="fr">Basket-ball : avant-match</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261023204500 +0200" stop="20261023224500 +0200" channel="beINSPORTS2.fr">
+    <title lang="fr">Basket-ball : Euroligue masculine | Paris Basketball / Valencia</title>
+    <category lang="fr">Basket-ball</category>
+  </programme>
+  <programme start="20261023224500 +0200" stop="20261024003000 +0200" channel="beINSPORTS2.fr">
+    <title lang="fr">Basket-ball : Euroligue masculine | Zalgiris Kaunas / ASVEL Lyon-Villeurbanne</title>
+    <category lang="fr">Basket-ball</category>
+  </programme>
+  <programme start="20261024151500 +0200" stop="20261024153000 +0200" channel="beINSPORTS2.fr">
+    <title lang="fr">Europe Arena</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024153000 +0200" stop="20261024173000 +0200" channel="beINSPORTS2.fr">
+    <title lang="fr">Football : Bundesliga | Multiplex</title>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261024173000 +0200" stop="20261024174500 +0200" channel="beINSPORTS2.fr">
+    <title lang="fr">Europe Arena</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024174500 +0200" stop="20261024181500 +0200" channel="beINSPORTS2.fr">
+    <title lang="fr">Salon VIP</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024181500 +0200" stop="20261024183000 +0200" channel="beINSPORTS2.fr">
+    <title lang="fr">Europe Arena</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024183000 +0200" stop="20261024203000 +0200" channel="beINSPORTS2.fr">
+    <title lang="fr">Football : Bundesliga | Borussia Dortmund / Eintracht Francfort</title>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261024203000 +0200" stop="20261024204500 +0200" channel="beINSPORTS2.fr">
+    <title lang="fr">Europe Arena</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024204500 +0200" stop="20261024211500 +0200" channel="beINSPORTS2.fr">
+    <title lang="fr">This is Paris</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024211500 +0200" stop="20261024213000 +0200" channel="beINSPORTS2.fr">
+    <title lang="fr">Ça se passe sur beIN SPORTS</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024213000 +0200" stop="20261024233000 +0200" channel="beINSPORTS2.fr">
+    <title lang="fr">Football : Championnat du Portugal | Gil Vicente / FC Porto</title>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261025150000 +0100" stop="20261025164500 +0100" channel="beINSPORTS2.fr">
+    <title lang="fr">Handball : Match amical féminin</title>
+    <sub-title lang="fr">France_ Hongrie. Match amical féminin. 2e match.</sub-title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261025164500 +0100" stop="20261025171500 +0100" channel="beINSPORTS2.fr">
+    <title lang="fr">This is Paris</title>
+    <category lang="fr">Sport</category>
+    <previously-shown/>
+    <subtitles type="teletext"/>
+  </programme>
+  <programme start="20261025171500 +0100" stop="20261025173000 +0100" channel="beINSPORTS2.fr">
+    <title lang="fr">Ça se passe sur beIN SPORTS</title>
+    <category lang="fr">Sport</category>
+    <previously-shown/>
+  </programme>
+  <programme start="20261025173000 +0100" stop="20261025193000 +0100" channel="beINSPORTS2.fr">
+    <title lang="fr">Fribourg / Bayern Munich</title>
+    <sub-title lang="fr">Football. Bundesliga. 7e journée.</sub-title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261025193000 +0100" stop="20261025204500 +0100" channel="beINSPORTS2.fr">
+    <title lang="fr">beIN STORY</title>
+    <sub-title lang="fr">The New York Sack Exchange</sub-title>
+    <category lang="fr">Culture Infos</category>
+    <previously-shown/>
+    <subtitles type="teletext"/>
+  </programme>
+  <programme start="20261025204500 +0100" stop="20261025211500 +0100" channel="beINSPORTS2.fr">
+    <title lang="fr">Michael Olise, When the Game Speaks</title>
+    <category lang="fr">Sport</category>
+    <previously-shown/>
+  </programme>
+  <programme start="20261025211500 +0100" stop="20261025213000 +0100" channel="beINSPORTS2.fr">
+    <title lang="fr">Ça se passe sur beIN SPORTS</title>
+    <category lang="fr">Sport</category>
+    <previously-shown/>
+  </programme>
+  <programme start="20261025213000 +0100" stop="20261025233000 +0100" channel="beINSPORTS2.fr">
+    <title lang="fr">Sporting Club Portugal / Academico</title>
+    <sub-title lang="fr">Football. Championnat du Portugal. 9e journée.</sub-title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261021210000 +0200" stop="20261022010000 +0200" channel="beINSPORTSMAX10.fr">
+    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261023202400 +0200" stop="20261023223000 +0200" channel="beINSPORTSMAX10.fr">
+    <title lang="fr">Football : Bundesliga | Stuttgart / Borussia Mönchengladbach</title>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261023223000 +0200" stop="20261024010000 +0200" channel="beINSPORTSMAX10.fr">
+    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024153000 +0200" stop="20261024155500 +0200" channel="beINSPORTSMAX10.fr">
+    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024155500 +0200" stop="20261024180000 +0200" channel="beINSPORTSMAX10.fr">
+    <title lang="fr">Football : EFL Championship | Preston / West Bromwich Albion</title>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261024180000 +0200" stop="20261024220000 +0200" channel="beINSPORTSMAX10.fr">
+    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024220000 +0200" stop="20261025010000 +0200" channel="beINSPORTSMAX10.fr">
+    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261025170000 +0100" stop="20261025203000 +0100" channel="beINSPORTSMAX10.fr">
+    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261025203000 +0100" stop="20261026010000 +0100" channel="beINSPORTSMAX10.fr">
+    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261021210000 +0200" stop="20261022010000 +0200" channel="beINSPORTSMAX5.fr">
+    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261023220000 +0200" stop="20261024010000 +0200" channel="beINSPORTSMAX5.fr">
+    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024150000 +0200" stop="20261024152400 +0200" channel="beINSPORTSMAX5.fr">
+    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024152400 +0200" stop="20261024173000 +0200" channel="beINSPORTSMAX5.fr">
+    <title lang="fr">Football : Bundesliga | Augsbourg / Union Berlin</title>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261024173000 +0200" stop="20261024190000 +0200" channel="beINSPORTSMAX5.fr">
+    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024190000 +0200" stop="20261024220000 +0200" channel="beINSPORTSMAX5.fr">
+    <title lang="fr">Hockey sur glace : NHL | Philadelphia Flyers / Anaheim Ducks</title>
+    <category lang="fr">Hockey sur glace</category>
+  </programme>
+  <programme start="20261024220000 +0200" stop="20261025010000 +0200" channel="beINSPORTSMAX5.fr">
+    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261025152400 +0100" stop="20261025173000 +0100" channel="beINSPORTSMAX5.fr">
+    <title lang="fr">Hoffenheim / Bayer Leverkusen</title>
+    <sub-title lang="fr">Football. Bundesliga. 7e journée.</sub-title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261025173000 +0100" stop="20261025175500 +0100" channel="beINSPORTSMAX5.fr">
+    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261025175500 +0100" stop="20261025200000 +0100" channel="beINSPORTSMAX5.fr">
+    <title lang="fr">Goztepe / Corum</title>
+    <sub-title lang="fr">Football. Süper Lig. 9e journée.</sub-title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261025200000 +0100" stop="20261025220000 +0100" channel="beINSPORTSMAX5.fr">
+    <title lang="fr">WNBA</title>
+    <sub-title lang="fr">WNBA. Playoffs. Finale. 4e match.</sub-title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261025220000 +0100" stop="20261026012500 +0100" channel="beINSPORTSMAX5.fr">
+    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261021210000 +0200" stop="20261022010000 +0200" channel="beINSPORTSMAX8.fr">
+    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261023220000 +0200" stop="20261024010000 +0200" channel="beINSPORTSMAX8.fr">
+    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024152400 +0200" stop="20261024173000 +0200" channel="beINSPORTSMAX8.fr">
+    <title lang="fr">Football : Bundesliga | Cologne / Schalke</title>
+    <category lang="fr">Football</category>
+  </programme>
+  <programme start="20261024173000 +0200" stop="20261024210000 +0200" channel="beINSPORTSMAX8.fr">
+    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261024210000 +0200" stop="20261025010000 +0200" channel="beINSPORTSMAX8.fr">
+    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
+    <category lang="fr">Magazine sportif</category>
+  </programme>
+  <programme start="20261025170000 +0100" stop="20261025210000 +0100" channel="beINSPORTSMAX8.fr">
+    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
+    <category lang="fr">Sport</category>
+  </programme>
+  <programme start="20261025210000 +0100" stop="20261026010000 +0100" channel="beINSPORTSMAX8.fr">
+    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
+    <category lang="fr">Sport</category>
+  </programme>
+</tv>
