@@ -1,8 +1,13 @@
 // Associe chaque match aux programmes TV qui le diffusent en direct.
 
-// Le programme doit commencer entre 30 min avant et 10 min après le coup d'envoi (sinon : rediffusion).
-const BEFORE_MS = 30 * 60_000;
+// Le programme doit commencer entre 75 min avant (avant-match inclus, ex. Ligue 1+) et 10 min après
+// le coup d'envoi. Au-delà : rediffusion.
+const BEFORE_MS = 75 * 60_000;
 const AFTER_MS = 10 * 60_000;
+
+// Seuls les vrais diffuseurs : le guide « France » contient aussi des chaînes qui rediffusent
+// des matchs (ex. « La chaine du Père Noël », chaînes belges, Canal+ 4K « Evenements Sports »).
+const BROADCASTER = /^(Canal\+|beIN SPORTS|DAZN|Ligue 1\+|RMC Sport|Eurosport|L'Equipe|La chaine l’Équipe|L'Équipe|M6|W9|TF1|France [2-5]\b|Prime Video)/;
 
 // Mots qui ne distinguent pas un club.
 const GENERIC = new Set([
@@ -56,7 +61,7 @@ function teamsFromTitle(title) {
   return sides.length === 2 ? sides.map((s) => s.trim()) : null;
 }
 
-const isLiveFootball = (p) => p.categories.includes("Football");
+const isLiveFootball = (p) => p.categories.includes("Football") && !/archives/i.test(p.title);
 
 // Les déclinaisons numérotées (Canal+ Live 3, beIN SPORTS MAX 5, Ligue 1+ 5) passent après les chaînes principales.
 function channelRank(name) {
@@ -67,7 +72,8 @@ export function attachChannels(matches, { channels, programmes }) {
   const found = new Map(matches.map((m) => [m, new Set()]));
 
   for (const p of programmes) {
-    if (!isLiveFootball(p)) continue;
+    const channelName = channels[p.channel] ?? p.channel;
+    if (!isLiveFootball(p) || !BROADCASTER.test(channelName)) continue;
     const teams = teamsFromTitle(p.title);
     if (!teams) continue;
     const start = Date.parse(p.start);
@@ -84,7 +90,7 @@ export function attachChannels(matches, { channels, programmes }) {
       if (home + away > bestScore) [best, bestScore, tie] = [m, home + away, false];
       else if (home + away === bestScore) tie = true;
     }
-    if (best && !tie) found.get(best).add(channels[p.channel] ?? p.channel);
+    if (best && !tie) found.get(best).add(channelName);
   }
 
   return matches.map((m) => ({

@@ -48,7 +48,7 @@ const match = (home, away, kickoff, names = {}) => ({
   names: { home: names.home ?? [home], away: names.away ?? [away] },
 });
 const guide = (...programmes) => ({
-  channels: { a: "Chaîne A", b: "Chaîne B" },
+  channels: { a: "Canal+ Foot", b: "beIN SPORTS 1", c: "La chaine du Père Noël" },
   programmes: programmes.map(([channel, start, title, categories = ["Football"]]) => ({
     channel, start, title, subTitle: "", categories,
   })),
@@ -59,7 +59,7 @@ test("une rediffusion hors de la fenêtre du coup d'envoi est ignorée", () => {
     [match("Arsenal", "Everton", "2026-10-24T14:00:00Z")],
     guide(["a", "2026-10-24T20:00:00Z", "Arsenal / Everton"], ["b", "2026-10-24T13:55:00Z", "Arsenal / Everton"]),
   );
-  assert.deepEqual(m.channels, ["Chaîne B"]);
+  assert.deepEqual(m.channels, ["beIN SPORTS 1"]);
 });
 
 test("deux matchs de Manchester à la même heure : chacun sa chaîne", () => {
@@ -70,7 +70,7 @@ test("deux matchs de Manchester à la même heure : chacun sa chaîne", () => {
     ],
     guide(["a", "2026-10-24T14:00:00Z", "Manchester City / Leeds"], ["b", "2026-10-24T14:00:00Z", "Manchester United / Fulham"]),
   );
-  assert.deepEqual(ms.map((m) => m.channels), [["Chaîne A"], ["Chaîne B"]]);
+  assert.deepEqual(ms.map((m) => m.channels), [["Canal+ Foot"], ["beIN SPORTS 1"]]);
 });
 
 test("une seule équipe reconnue ne suffit pas", () => {
@@ -97,7 +97,7 @@ test("match après minuit heure de Paris", () => {
     [match("Arsenal", "Everton", "2026-10-21T22:30:00Z")],
     guide(["a", "2026-10-21T22:30:00Z", "Football : Premier League | Arsenal / Everton"]),
   );
-  assert.deepEqual(m.channels, ["Chaîne A"]);
+  assert.deepEqual(m.channels, ["Canal+ Foot"]);
 });
 
 test("noms français du guide : Naples = Napoli", () => {
@@ -105,11 +105,35 @@ test("noms français du guide : Naples = Napoli", () => {
     [match("Napoli", "Bodø/Glimt", "2026-10-20T19:00:00Z", { home: ["SSC Napoli", "Napoli"], away: ["FK Bodø/Glimt"] })],
     guide(["a", "2026-10-20T18:55:00Z", "Naples / FK Bodø/Glimt"]),
   );
-  assert.deepEqual(m.channels, ["Chaîne A"]);
+  assert.deepEqual(m.channels, ["Canal+ Foot"]);
 });
 
 test("guide vide → chaînes vides, matchs intacts", () => {
   const ms = attachChannels([match("Arsenal", "Everton", "2026-10-24T14:00:00Z")], { channels: {}, programmes: [] });
   assert.deepEqual(ms[0].channels, []);
   assert.equal(ms[0].home, "Arsenal");
+});
+
+test("programme qui commence 1 h avant le coup d'envoi (avant-match inclus)", () => {
+  const [m] = attachChannels(
+    [match("Brest", "Nice", "2026-10-23T18:45:00Z")],
+    guide(["a", "2026-10-23T17:45:00Z", "Football : Ligue 1 McDonald's | Brest / Nice"]),
+  );
+  assert.deepEqual(m.channels, ["Canal+ Foot"]);
+});
+
+test("un match d'archives avant le coup d'envoi est ignoré", () => {
+  const [m] = attachChannels(
+    [match("Lyon", "Marseille", "2026-10-25T19:45:00Z")],
+    guide(["a", "2026-10-25T19:00:00Z", "Football : Match d'archives | Lyon / Marseille"]),
+  );
+  assert.deepEqual(m.channels, []);
+});
+
+test("une chaîne qui n'est pas un diffuseur sportif est ignorée", () => {
+  const [m] = attachChannels(
+    [match("Arsenal", "Everton", "2026-10-24T14:00:00Z")],
+    guide(["c", "2026-10-24T14:00:00Z", "Arsenal / Everton"], ["a", "2026-10-24T14:00:00Z", "Arsenal / Everton"]),
+  );
+  assert.deepEqual(m.channels, ["Canal+ Foot"]);
 });

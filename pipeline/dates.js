@@ -12,9 +12,10 @@ function addDays(isoDate, days) {
 
 // Matchs publiés : de la veille à après-demain (heure de Paris), pour que la télé
 // trouve « aujourd'hui » et « demain » même si le fichier a quelques heures de retard.
+// Attention : dateTo est exclusif côté football-data.org.
 export function dateWindow(now) {
   const today = parisDate(now);
-  return { dateFrom: addDays(today, -1), dateTo: addDays(today, 2) };
+  return { dateFrom: addDays(today, -1), dateTo: addDays(today, 3) };
 }
 
 // Le guide xmltvfr.fr est régénéré vers 02h00 : on considère qu'une « journée de guide » commence à 04h00.
