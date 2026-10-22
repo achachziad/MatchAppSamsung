@@ -237,7 +237,7 @@ tizen install -n app/matchs-du-jour.wgt -t <nom_appareil>
 
 ## À compléter avec l'utilisateur
 
-- [x] Sports et compétitions à afficher : **football uniquement** — Coupe du monde, Euro, Ligue 1, Ligue des champions, Premier League, LaLiga, Bundesliga. Rien d'autre (pas de MLS, etc.). Europa League voulue mais hors plan gratuit : décision en attente. Une compétition sans match n'apparaît pas.
+- [x] Sports et compétitions à afficher : **football uniquement** — Coupe du monde, Euro, Ligue 1, Ligue des champions, Premier League, LaLiga, Bundesliga. Rien d'autre (pas de MLS, etc.). **Pas d'Europa League** (hors plan gratuit ; abandonnée par choix de l'utilisateur, ne pas la reproposer). Une compétition sans match n'apparaît pas.
 - [ ] Équipes favorites à mettre en avant : …
 - [x] Source de données choisie : football-data.org + guide XMLTV xmltvfr.fr, via GitHub Actions → `matchs.json` sur GitHub Pages (voir « Source de données »).
 - [x] Matchs terminés : afficher le score en gros + « Terminé » (voir « Comportement attendu »).
