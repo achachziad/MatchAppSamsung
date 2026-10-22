@@ -1,0 +1,172 @@
+/* Utilisateur malvoyant, regardé de loin : voir « Lisibilité TV » dans CLAUDE.md.
+   Base 1920×1080. Rien sous 40 px, équipes 64 px, heure et score 84 px, blanc sur quasi-noir. */
+
+:root {
+  --bg: #050507;
+  --row: #15151b;
+  --row-focus: #2a2a33;
+  --text: #ffffff;
+  --channel: #9fdcff;        /* ~13:1 sur --row */
+  --muted: #d8d8d8;          /* jamais plus sombre : reste ≥ 7:1 */
+  --focus: #ffd400;
+  --live: #b00000;           /* blanc dessus : ~7:1 */
+  --done: #3a3a42;
+  --postponed: #ffb000;      /* texte noir dessus */
+  --safe-x: 96px;            /* marges de sécurité ~5 % */
+  --safe-y: 54px;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 1.2;
+}
+
+#app {
+  height: 100%;
+  padding: var(--safe-y) var(--safe-x);
+  display: flex;
+  flex-direction: column;
+}
+
+/* --- Barre du haut : bandeau « Données du… » et horloge --- */
+
+#topbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 32px;
+  min-height: 72px;
+  margin-bottom: 16px;
+}
+
+#clock { font-size: 56px; font-weight: 800; }
+
+#banner {
+  margin-right: auto;
+  padding: 8px 24px;
+  border-radius: 12px;
+  background: var(--postponed);
+  color: #000;
+  font-size: 44px;
+  font-weight: 800;
+}
+#banner[hidden] { display: none; }
+
+/* --- Liste --- */
+
+#list {
+  flex: 1;
+  overflow: hidden;          /* pas de barre de défilement : la télécommande fait défiler */
+}
+
+.day { margin-bottom: 56px; }
+
+.day-title {
+  display: flex;
+  align-items: baseline;
+  gap: 32px;
+  margin: 0 0 24px;
+  font-size: 72px;
+  font-weight: 800;
+}
+.day-date { font-size: 52px; color: var(--muted); font-weight: 700; }
+
+/* Reste collé en haut quand on descend dans un long groupe : on sait toujours quelle compétition on regarde. */
+.competition {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  margin: 16px 0;
+  padding: 12px 0 12px 24px;
+  background: var(--bg);
+  box-shadow: 0 0 0 16px var(--bg);
+  border-left: 12px solid var(--channel);
+  font-size: 52px;
+  font-weight: 800;
+}
+
+.match {
+  margin-bottom: 20px;
+  padding: 20px 32px;
+  border: 8px solid transparent;
+  border-radius: 20px;
+  background: var(--row);
+  outline: none;
+}
+
+.match.focused {
+  border-color: var(--focus);
+  background: var(--row-focus);
+}
+
+.line {
+  display: grid;
+  grid-template-columns: 1fr 400px 1fr;
+  align-items: center;
+}
+
+.team {
+  font-size: 64px;
+  font-weight: 800;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;   /* noms longs coupés, jamais rétrécis */
+}
+.home { text-align: right; }
+.away { text-align: left; }
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.time, .score {
+  font-size: 84px;
+  font-weight: 800;
+  line-height: 1.05;
+}
+
+.next-day { font-size: 40px; color: var(--muted); }
+
+.label {
+  margin-top: 6px;
+  padding: 2px 20px;
+  border-radius: 10px;
+  font-size: 44px;
+  font-weight: 800;
+}
+.label-finished { background: var(--done); color: var(--text); }
+.label-live { background: var(--live); color: var(--text); }
+.label-postponed { background: var(--postponed); color: #000; }
+
+.channels {
+  margin-top: 12px;
+  text-align: center;
+  font-size: 48px;
+  color: var(--channel);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.channels.unknown { color: var(--muted); }
+
+.message {
+  margin: 24px 0;
+  padding: 32px;
+  border-radius: 20px;
+  background: var(--row);
+  font-size: 52px;
+  text-align: center;
+}
+.message.error { background: var(--live); }

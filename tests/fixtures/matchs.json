@@ -1,0 +1,416 @@
+{
+  "generatedAt": "2026-10-21T23:48:59.495Z",
+  "matches": [
+    {
+      "id": "fd-575368",
+      "sport": "football",
+      "competition": "Ligue des champions",
+      "home": "Como 1907",
+      "away": "Man United",
+      "kickoff": "2026-10-21T16:45:00Z",
+      "channels": [
+        "Canal+ Sport",
+        "Canal+ Live 3"
+      ],
+      "status": "finished",
+      "score": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "fd-575369",
+      "sport": "football",
+      "competition": "Ligue des champions",
+      "home": "Lille",
+      "away": "Galatasaray",
+      "kickoff": "2026-10-21T16:45:00Z",
+      "channels": [
+        "Canal+ Foot",
+        "Canal+ Live 2"
+      ],
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 4
+      }
+    },
+    {
+      "id": "fd-564685",
+      "sport": "football",
+      "competition": "LaLiga",
+      "home": "Levante",
+      "away": "Athletic",
+      "kickoff": "2026-10-21T18:00:00Z",
+      "channels": [],
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "fd-575374",
+      "sport": "football",
+      "competition": "Ligue des champions",
+      "home": "Aston Villa",
+      "away": "Viking",
+      "kickoff": "2026-10-21T19:00:00Z",
+      "channels": [
+        "Canal+ Live 5"
+      ],
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "fd-575370",
+      "sport": "football",
+      "competition": "Ligue des champions",
+      "home": "Real Madrid",
+      "away": "RB Leipzig",
+      "kickoff": "2026-10-21T19:00:00Z",
+      "channels": [
+        "Canal+ Sport",
+        "Canal+ Live 3"
+      ],
+      "status": "finished",
+      "score": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "fd-575376",
+      "sport": "football",
+      "competition": "Ligue des champions",
+      "home": "Real Betis",
+      "away": "Feyenoord",
+      "kickoff": "2026-10-21T19:00:00Z",
+      "channels": [
+        "Canal+ Live 6"
+      ],
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "fd-575372",
+      "sport": "football",
+      "competition": "Ligue des champions",
+      "home": "Bayern",
+      "away": "Arsenal",
+      "kickoff": "2026-10-21T19:00:00Z",
+      "channels": [
+        "Canal+ Foot",
+        "Canal+ Live 2"
+      ],
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "fd-575375",
+      "sport": "football",
+      "competition": "Ligue des champions",
+      "home": "Sporting CP",
+      "away": "LASK",
+      "kickoff": "2026-10-21T19:00:00Z",
+      "channels": [
+        "Canal+ Live 7"
+      ],
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "fd-575371",
+      "sport": "football",
+      "competition": "Ligue des champions",
+      "home": "Inter",
+      "away": "Shaktar",
+      "kickoff": "2026-10-21T19:00:00Z",
+      "channels": [
+        "Canal+ Live 4"
+      ],
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "fd-575373",
+      "sport": "football",
+      "competition": "Ligue des champions",
+      "home": "Club Brugge",
+      "away": "RC Lens",
+      "kickoff": "2026-10-21T19:00:00Z",
+      "channels": [
+        "Canal+",
+        "Canal+ Live 1"
+      ],
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "fd-565833",
+      "sport": "football",
+      "competition": "Bundesliga",
+      "home": "Stuttgart",
+      "away": "M'gladbach",
+      "kickoff": "2026-10-23T18:30:00Z",
+      "channels": [
+        "beIN SPORTS MAX 10"
+      ],
+      "status": "scheduled",
+      "score": null
+    },
+    {
+      "id": "fd-559654",
+      "sport": "football",
+      "competition": "Ligue 1",
+      "home": "Brest",
+      "away": "Nice",
+      "kickoff": "2026-10-23T18:45:00Z",
+      "channels": [
+        "Ligue 1+",
+        "Ligue 1+ 2"
+      ],
+      "status": "scheduled",
+      "score": null
+    },
+    {
+      "id": "fd-564719",
+      "sport": "football",
+      "competition": "LaLiga",
+      "home": "Alavés",
+      "away": "Málaga",
+      "kickoff": "2026-10-23T19:00:00Z",
+      "channels": [],
+      "status": "scheduled",
+      "score": null
+    },
+    {
+      "id": "fd-560620",
+      "sport": "football",
+      "competition": "Premier League",
+      "home": "Ipswich Town",
+      "away": "Nottingham",
+      "kickoff": "2026-10-23T19:00:00Z",
+      "channels": [
+        "Canal+ Premier League",
+        "Canal+ Live 7"
+      ],
+      "status": "scheduled",
+      "score": null
+    },
+    {
+      "id": "fd-560614",
+      "sport": "football",
+      "competition": "Premier League",
+      "home": "Aston Villa",
+      "away": "Man City",
+      "kickoff": "2026-10-24T11:30:00Z",
+      "channels": [
+        "Canal+",
+        "Canal+ Foot",
+        "Canal+ Premier League",
+        "Canal+ Live 6"
+      ],
+      "status": "scheduled",
+      "score": null
+    },
+    {
+      "id": "fd-564718",
+      "sport": "football",
+      "competition": "LaLiga",
+      "home": "Rayo Vallecano",
+      "away": "Elche",
+      "kickoff": "2026-10-24T12:00:00Z",
+      "channels": [],
+      "status": "scheduled",
+      "score": null
+    },
+    {
+      "id": "fd-565831",
+      "sport": "football",
+      "competition": "Bundesliga",
+      "home": "1. FC Köln",
+      "away": "Schalke",
+      "kickoff": "2026-10-24T13:30:00Z",
+      "channels": [
+        "beIN SPORTS MAX 8"
+      ],
+      "status": "scheduled",
+      "score": null
+    },
+    {
+      "id": "fd-565832",
+      "sport": "football",
+      "competition": "Bundesliga",
+      "home": "RB Leipzig",
+      "away": "Elversberg",
+      "kickoff": "2026-10-24T13:30:00Z",
+      "channels": [
+        "beIN SPORTS MAX 6"
+      ],
+      "status": "scheduled",
+      "score": null
+    },
+    {
+      "id": "fd-565834",
+      "sport": "football",
+      "competition": "Bundesliga",
+      "home": "SC Paderborn",
+      "away": "HSV",
+      "kickoff": "2026-10-24T13:30:00Z",
+      "channels": [
+        "beIN SPORTS MAX 9"
+      ],
+      "status": "scheduled",
+      "score": null
+    },
+    {
+      "id": "fd-565830",
+      "sport": "football",
+      "competition": "Bundesliga",
+      "home": "Mainz",
+      "away": "Bremen",
+      "kickoff": "2026-10-24T13:30:00Z",
+      "channels": [
+        "beIN SPORTS MAX 7"
+      ],
+      "status": "scheduled",
+      "score": null
+    },
+    {
+      "id": "fd-565838",
+      "sport": "football",
+      "competition": "Bundesliga",
+      "home": "Augsburg",
+      "away": "Union Berlin",
+      "kickoff": "2026-10-24T13:30:00Z",
+      "channels": [
+        "beIN SPORTS MAX 5"
+      ],
+      "status": "scheduled",
+      "score": null
+    },
+    {
+      "id": "fd-560616",
+      "sport": "football",
+      "competition": "Premier League",
+      "home": "Arsenal",
+      "away": "Everton",
+      "kickoff": "2026-10-24T14:00:00Z",
+      "channels": [
+        "Canal+ Foot",
+        "Canal+ Premier League",
+        "Canal+ Live 6"
+      ],
+      "status": "scheduled",
+      "score": null
+    },
+    {
+      "id": "fd-560618",
+      "sport": "football",
+      "competition": "Premier League",
+      "home": "Coventry City",
+      "away": "Fulham",
+      "kickoff": "2026-10-24T14:00:00Z",
+      "channels": [
+        "Canal+ Live 7"
+      ],
+      "status": "scheduled",
+      "score": null
+    },
+    {
+      "id": "fd-564727",
+      "sport": "football",
+      "competition": "LaLiga",
+      "home": "Santander",
+      "away": "Espanyol",
+      "kickoff": "2026-10-24T14:15:00Z",
+      "channels": [],
+      "status": "scheduled",
+      "score": null
+    },
+    {
+      "id": "fd-565837",
+      "sport": "football",
+      "competition": "Bundesliga",
+      "home": "Dortmund",
+      "away": "Frankfurt",
+      "kickoff": "2026-10-24T16:30:00Z",
+      "channels": [
+        "beIN SPORTS 2"
+      ],
+      "status": "scheduled",
+      "score": null
+    },
+    {
+      "id": "fd-560617",
+      "sport": "football",
+      "competition": "Premier League",
+      "home": "Chelsea",
+      "away": "Tottenham",
+      "kickoff": "2026-10-24T16:30:00Z",
+      "channels": [
+        "Canal+ Foot",
+        "Canal+ Premier League",
+        "Canal+ Live 6"
+      ],
+      "status": "scheduled",
+      "score": null
+    },
+    {
+      "id": "fd-564722",
+      "sport": "football",
+      "competition": "LaLiga",
+      "home": "Valencia",
+      "away": "Villarreal",
+      "kickoff": "2026-10-24T16:30:00Z",
+      "channels": [],
+      "status": "scheduled",
+      "score": null
+    },
+    {
+      "id": "fd-559652",
+      "sport": "football",
+      "competition": "Ligue 1",
+      "home": "RC Lens",
+      "away": "Paris FC",
+      "kickoff": "2026-10-24T18:45:00Z",
+      "channels": [
+        "Ligue 1+ 3"
+      ],
+      "status": "scheduled",
+      "score": null
+    },
+    {
+      "id": "fd-564724",
+      "sport": "football",
+      "competition": "LaLiga",
+      "home": "Atleti",
+      "away": "Deportivo",
+      "kickoff": "2026-10-24T19:00:00Z",
+      "channels": [
+        "DAZN 1"
+      ],
+      "status": "scheduled",
+      "score": null
+    }
+  ]
+}

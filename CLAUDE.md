@@ -91,10 +91,10 @@ Chaque source doit renvoyer une liste d'objets de cette forme :
 
 ## Source de données — DÉCIDÉE
 
-Aucune API gratuite ne donne la chaîne française. On combine deux sources **hors de la télé**, dans un job GitHub Actions quotidien :
+Aucune API gratuite ne donne la chaîne française. On combine deux sources **hors de la télé**, dans un job GitHub Actions planifié :
 
 ```
-GitHub Actions (1×/jour)
+GitHub Actions (toutes les 30 min, 9h–23h30 UTC ; guide TV téléchargé 1×/jour grâce au cache)
   1. football-data.org (API v4, header X-Auth-Token) → matchs, statut, score
      Compétitions : FL1, CL, PL, PD (LaLiga), BL1 — toutes dans le plan gratuit (10 req/min, scores en différé)
   2. xmltvfr.fr → https://xmltvfr.fr/xmltv/xmltv_fr.xml.gz (guide « France », ~9 Mo, 5 jours, MAJ quotidienne)
@@ -105,7 +105,13 @@ Télé : lit uniquement matchs.json
 
 - **Clé API** : dans `.env` à la racine (ignoré par git, variable `FOOTBALL_DATA_TOKEN`), et en secret GitHub Actions du même nom. **Jamais** dans `app/` : la télé n'a pas besoin de la clé.
 - xmltvfr.fr est un service bénévole sans CGU affichées : **un seul téléchargement par jour**, version compressée uniquement.
-- L'appli garde l'interface `sources/` : une source `githubPages.js` lit `matchs.json`. Changer de source = changer une ligne dans `sources/index.js`.
+- L'appli garde l'interface `sources/` : une source `githubPages.js` lit `matchs.json`. Changer de source = changer une ligne dans `sources/index.js`. Une source expose `fetchMatches()` qui renvoie `{ generatedAt, matches }`.
+
+### Scripts de l'appli : pas de modules ES
+
+- Le `.wgt` est chargé depuis le système de fichiers de la télé, et je n'ai pas vérifié que `<script type="module">` y fonctionne (Chromium bloque les modules en `file://`). Les fichiers de `app/js/` sont donc des **scripts classiques** qui exposent un objet global (`globalThis.Matches`, `globalThis.Source`…), chargés dans l'ordre par `index.html`.
+- Les tests les chargent avec `tests/helpers/loadAppScript.js` (`vm.runInThisContext`).
+- Syntaxe : rester sur ce que supporte un Chromium ~M90 (Tizen 7). `?.` et `??` sont permis ; pas de `Object.groupBy`, `Array.prototype.findLast` ni `structuredClone`.
 
 ### Format du guide XMLTV (constaté le 21/10/2026)
 
@@ -116,7 +122,10 @@ Télé : lit uniquement matchs.json
   - DAZN : titre `Domicile / Extérieur`, sous-titre `Football. Liga 10e journée.` ou `Football. Ligue 1 McDonald's 8e journée.`.
   - Ligue 1+ et beIN : titre `Football : Ligue 1 McDonald's | Domicile / Extérieur` ou `Football : Bundesliga | Domicile / Extérieur`.
 - **Noms d'équipes en français**, différents de l'API : Côme, Bayern Munich, Chakhtior Donetsk, Betis Séville, Sporting Club Portugal, Leipzig… Il faut normaliser (accents, casse) et prévoir une table d'alias.
-- **Rediffusions nombreuses** : ne garder que les programmes qui commencent entre ~20 min avant et ~10 min après le coup d'envoi.
+- **Rediffusions nombreuses** : ne garder que les programmes qui commencent entre 75 min avant (Ligue 1+ démarre ~1 h avant, avant-match inclus) et 10 min après le coup d'envoi. Ignorer les « Match d'archives ».
+- **Chaînes parasites** dans le guide « France » (« La chaine du Père Noël », Club RTL, « Evenements Sports 4K UHD ») : seule une liste blanche de diffuseurs est gardée (`BROADCASTER` dans `pipeline/channels.js`).
+- **API football-data.org : `dateTo` est exclusif** (vérifié), contrairement à ce que suggère la doc.
+- Les exécutions planifiées GitHub peuvent être retardées ou sautées. Si c'est trop irrégulier : déclencher `workflow_dispatch` depuis un cron externe (ex. cron-job.org) avec un token limité au repo.
 - Un même match peut être sur plusieurs chaînes (ex. Canal+ Sport et Canal+ Live 3) : garder toutes les chaînes.
 - Certains matchs n'y figurent pas (ex. LaLiga sur Disney+) : alors `channels: []`.
 - Ignorer `Multiplex`, `Plateau avant-match`, la Youth League, la Bundesliga 2 et les magazines.
@@ -143,13 +152,19 @@ Télé : lit uniquement matchs.json
 
 - Fond sombre, matchs **groupés par compétition** (un bloc par compétition, avec un en-tête).
 - Une ligne par match : `Domicile · heure · Extérieur`, centrée, avec la chaîne sur la même ligne ou juste en dessous.
-- Un match après minuit (heure de Paris) affiche **« +1 jour »** au-dessus de l'heure.
+- Un match après minuit (heure de Paris) affiche **« +1 jour »** au-dessus de l'heure. Règle : la « journée » va de 04h00 à 04h00 (Paris) ; un match entre 00h00 et 04h00 reste dans la soirée de la veille, avec « +1 jour ».
 - Pas de barre latérale ni de boutons de filtre (inutilisables à la télécommande). Une seule colonne, que l'on fait défiler avec Haut / Bas.
 
-### Lisibilité TV
+### Lisibilité TV — utilisateur malvoyant, regardé de loin (contrainte prioritaire)
 
-- Texte **grand** : au moins 28 px pour le corps, plus pour les équipes.
-- **Contraste fort**, fond sombre.
+L'appli est utilisée par une personne **malvoyante**, à distance de la télé. En cas de conflit avec l'esthétique ou la densité d'information, **la lisibilité gagne**.
+
+- **Tailles (en px, base 1920×1080)** : rien sous **40 px** ; chaînes et mentions ≥ 44 ; équipes ≥ 64 ; heure et score ≥ 80. Police sans-serif, **graisse 600 à 800**, jamais de texte fin ou en italique.
+- **Peu de matchs à l'écran** (environ 4 ou 5) plutôt que beaucoup de petits.
+- **Contraste maximal** : blanc pur sur fond quasi noir (ratio ≥ 7:1). Pas de gris clair sur gris foncé pour une info utile.
+- **Ne jamais coder une info par la couleur seule** : toujours un mot (« Terminé », « En direct », « Reporté »).
+- **Focus énorme** : bordure jaune épaisse (≥ 8 px) et fond plus clair, visible sans hésitation.
+- Pas d'animation ni de défilement automatique. Noms trop longs : coupés avec « … », jamais rétrécis.
 - Marges de sécurité d'environ 5 % sur les bords de l'écran.
 
 ---
@@ -190,7 +205,11 @@ npx serve app        # aperçu dans le navigateur du PC (optionnel)
 
 **Option 1 — Apps2Samsung (méthode utilisée par l'utilisateur)**
 
-1. Zipper le **contenu** de `app/` (pas le dossier lui-même) et renommer en `matchs-du-jour.wgt`.
+1. Zipper le **contenu** de `app/` (pas le dossier lui-même) et renommer en `matchs-du-jour.wgt`. Sous Windows, utiliser `tar` (pas `Compress-Archive` de PowerShell 5.1, qui écrit des `\` dans les chemins du zip) :
+   ```powershell
+   tar -a -cf matchs-du-jour.zip -C app * ; Rename-Item matchs-du-jour.zip matchs-du-jour.wgt
+   ```
+   Incrémenter `version` dans `config.xml` à chaque nouvelle installation.
 2. Dans Apps2Samsung : ⚙️ → **Force Samsung Certificate** + **Partner Signing**.
 3. **Custom WGT File** → choisir le `.wgt` → **Installer**.
 
