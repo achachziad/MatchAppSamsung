@@ -49,10 +49,10 @@ test("match à venir : pas de score", () => {
 });
 
 test("noms des compétitions en français", () => {
-  const names = ["FL1", "CL", "PL", "PD", "BL1"].map(
+  const names = ["WC", "EC", "FL1", "CL", "PL", "PD", "BL1"].map(
     (code) => parseFootballData({ matches: [apiMatch({ competition: { code } })] })[0].competition,
   );
-  assert.deepEqual(names, ["Ligue 1", "Ligue des champions", "Premier League", "LaLiga", "Bundesliga"]);
+  assert.deepEqual(names, ["Coupe du monde", "Euro", "Ligue 1", "Ligue des champions", "Premier League", "LaLiga", "Bundesliga"]);
 });
 
 test("statuts reportés, suspendus et annulés → postponed", () => {

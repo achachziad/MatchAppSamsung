@@ -5,7 +5,7 @@
 
   var TZ = "Europe/Paris";
   var DAY_START_HOURS = 4; // une « journée » va de 04h00 à 04h00, heure de Paris
-  var COMPETITION_ORDER = ["Ligue 1", "Ligue des champions", "Premier League", "LaLiga", "Bundesliga"];
+  var COMPETITION_ORDER = ["Coupe du monde", "Euro", "Ligue 1", "Ligue des champions", "Premier League", "LaLiga", "Bundesliga"];
   var LABELS = { finished: "Terminé", live: "En direct", postponed: "Reporté" };
 
   var timeFormat = new Intl.DateTimeFormat("fr-FR", { timeZone: TZ, hour: "2-digit", minute: "2-digit" });

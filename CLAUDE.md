@@ -44,7 +44,7 @@ app/
     sources/
       index.js        # choix de la source de données
       <source>.js     # un fichier par source, même interface
-  icon.png            # 117×117
+  icon.png            # 117×117, rendu depuis assets/logo.svg (ballon dans une télé)
 pipeline/             # job GitHub Actions (Node), jamais embarqué dans le .wgt
   build.js            # orchestration : API + guide TV → dist/matchs.json (seul fichier avec effets de bord)
   footballData.js     # réponse football-data.org → modèle interne
@@ -96,7 +96,8 @@ Aucune API gratuite ne donne la chaîne française. On combine deux sources **ho
 ```
 GitHub Actions (toutes les 30 min, 9h–23h30 UTC ; guide TV téléchargé 1×/jour grâce au cache)
   1. football-data.org (API v4, header X-Auth-Token) → matchs, statut, score
-     Compétitions : FL1, CL, PL, PD (LaLiga), BL1 — toutes dans le plan gratuit (10 req/min, scores en différé)
+     Compétitions : WC, EC, FL1, CL, PL, PD (LaLiga), BL1 — toutes dans le plan gratuit (10 req/min)
+     Europa League (EL) : HORS plan gratuit (HTTP 403, vérifié le 22/10/2026)
   2. xmltvfr.fr → https://xmltvfr.fr/xmltv/xmltv_fr.xml.gz (guide « France », ~9 Mo, 5 jours, MAJ quotidienne)
   3. association match ↔ programme TV → channels
   4. publie matchs.json sur GitHub Pages
@@ -236,7 +237,7 @@ tizen install -n app/matchs-du-jour.wgt -t <nom_appareil>
 
 ## À compléter avec l'utilisateur
 
-- [x] Sports et compétitions à afficher : **football uniquement** — Ligue 1, Ligue des champions, Premier League, LaLiga, Bundesliga. Rien d'autre (pas de MLS, etc.).
+- [x] Sports et compétitions à afficher : **football uniquement** — Coupe du monde, Euro, Ligue 1, Ligue des champions, Premier League, LaLiga, Bundesliga. Rien d'autre (pas de MLS, etc.). Europa League voulue mais hors plan gratuit : décision en attente. Une compétition sans match n'apparaît pas.
 - [ ] Équipes favorites à mettre en avant : …
 - [x] Source de données choisie : football-data.org + guide XMLTV xmltvfr.fr, via GitHub Actions → `matchs.json` sur GitHub Pages (voir « Source de données »).
 - [x] Matchs terminés : afficher le score en gros + « Terminé » (voir « Comportement attendu »).

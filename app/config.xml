@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Ne jamais changer id / package entre deux versions : la mise à jour échouerait. Incrémenter seulement "version". -->
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets"
-        id="https://achachziad.github.io/MatchAppSamsung" version="1.0.0" viewmodes="maximized">
+        id="https://achachziad.github.io/MatchAppSamsung" version="1.0.1" viewmodes="maximized">
     <tizen:application id="MtchDuJr01.MatchsDuJour" package="MtchDuJr01" required_version="6.0"/>
     <tizen:profile name="tv-samsung"/>
     <content src="index.html"/>

@@ -136,3 +136,11 @@ test("données périmées au-delà de 3 h", () => {
   assert.equal(isStale("2026-10-22T08:59:00Z", now), true);
   assert.equal(isStale(null, now), true);
 });
+
+test("Coupe du monde et Euro passent avant les championnats", () => {
+  const [today] = buildSections(
+    [match({ id: "a", competition: "Ligue 1" }), match({ id: "b", competition: "Euro" }), match({ id: "c", competition: "Coupe du monde" })],
+    new Date("2026-10-21T10:00:00Z"),
+  );
+  assert.deepEqual(today.groups.map((g) => g.competition), ["Coupe du monde", "Euro", "Ligue 1"]);
+});

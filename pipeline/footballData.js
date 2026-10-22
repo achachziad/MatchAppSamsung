@@ -2,6 +2,8 @@
 
 export const API_URL = "https://api.football-data.org/v4/matches";
 export const COMPETITIONS = {
+  WC: "Coupe du monde",
+  EC: "Euro",
   FL1: "Ligue 1",
   CL: "Ligue des champions",
   PL: "Premier League",
